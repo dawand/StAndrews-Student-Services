@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/KeychainItemWrapper.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/KeychainItemWrapper</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KeychainItemWrapper.h</DeclaredIn>
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeychainItemWrapper/initWithIdentifier:accessGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KeychainItemWrapper.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithIdentifier:(NSString *)identifier accessGroup:(NSString *)accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/initWithIdentifier:accessGroup:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeychainItemWrapper/setObject:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KeychainItemWrapper.h</DeclaredIn>			
+			
+			<Declaration>- (void)setObject:(id)inObject forKey:(id)key</Declaration>
+			
+			
+			<Anchor>//api/name/setObject:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeychainItemWrapper/objectForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KeychainItemWrapper.h</DeclaredIn>			
+			
+			<Declaration>- (id)objectForKey:(id)key</Declaration>
+			
+			
+			<Anchor>//api/name/objectForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeychainItemWrapper/resetKeychainItem</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>KeychainItemWrapper.h</DeclaredIn>			
+			
+			<Declaration>- (void)resetKeychainItem</Declaration>
+			
+			
+			<Anchor>//api/name/resetKeychainItem</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TimetableCache.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TimetableCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableCache.h</DeclaredIn>
+			
+			<NodeRef refid="76"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TimetableCache/cacheDirectory</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableCache.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)cacheDirectory</Declaration>
+			
+			
+			<Anchor>//api/name/cacheDirectory</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TimetableCache/clearCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableCache.h</DeclaredIn>			
+			
+			<Declaration>+ (void)clearCache</Declaration>
+			
+			
+			<Anchor>//api/name/clearCache</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TimetableCache/appVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableCache.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)appVersion</Declaration>
+			
+			
+			<Anchor>//api/name/appVersion</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TimetableCache/cacheItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableCache.h</DeclaredIn>			
+			
+			<Declaration>+ (void)cacheItems:(NSMutableArray *)Items</Declaration>
+			
+			
+			<Anchor>//api/name/cacheItems:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TimetableCache/getCachedItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableCache.h</DeclaredIn>			
+			
+			<Declaration>+ (NSMutableArray *)getCachedItems</Declaration>
+			
+			
+			<Anchor>//api/name/getCachedItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TimetableCache/isItemsStale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableCache.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isItemsStale</Declaration>
+			
+			
+			<Anchor>//api/name/isItemsStale</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableCache/setCachedStartDates:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableCache.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *cachedStartDates</Declaration>
+			
+			
+			<Anchor>//api/name/cachedStartDates</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableCache/cachedStartDates</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableCache.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *cachedStartDates</Declaration>
+			
+			
+			<Anchor>//api/name/cachedStartDates</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

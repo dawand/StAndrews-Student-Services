@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/RSSLoaderDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/RSSLoaderDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RSSLoader.h</DeclaredIn>
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/RSSLoaderDelegate/updatedFeedWithRSS:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RSSLoader.h</DeclaredIn>			
+			
+			<Declaration>- (void)updatedFeedWithRSS:(NSArray *)items</Declaration>
+			
+			
+			<Anchor>//api/name/updatedFeedWithRSS:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/RSSLoaderDelegate/failedFeedUpdateWithError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RSSLoader.h</DeclaredIn>			
+			
+			<Declaration>- (void)failedFeedUpdateWithError:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/failedFeedUpdateWithError:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/RSSLoaderDelegate/updatedFeedTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RSSLoader.h</DeclaredIn>			
+			
+			<Declaration>- (void)updatedFeedTitle:(NSString *)title</Declaration>
+			
+			
+			<Anchor>//api/name/updatedFeedTitle:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/coursework.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/coursework</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>coursework.h</DeclaredIn>
+			
+			<NodeRef refid="85"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/coursework/setCw_id:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>coursework.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *cw_id</Declaration>
+			
+			
+			<Anchor>//api/name/cw_id</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/coursework/cw_id</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>coursework.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *cw_id</Declaration>
+			
+			
+			<Anchor>//api/name/cw_id</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/coursework/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>coursework.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/coursework/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>coursework.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/coursework/setUrl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>coursework.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/coursework/url</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>coursework.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/coursework/setAssignmentsArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>coursework.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *assignmentsArray</Declaration>
+			
+			
+			<Anchor>//api/name/assignmentsArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/coursework/assignmentsArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>coursework.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *assignmentsArray</Declaration>
+			
+			
+			<Anchor>//api/name/assignmentsArray</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

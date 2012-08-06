@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AssignmentDetailsVC.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AssignmentDetailsVC</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AssignmentDetailsVC/setATitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *ATitle</Declaration>
+			
+			
+			<Anchor>//api/name/ATitle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AssignmentDetailsVC/ATitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *ATitle</Declaration>
+			
+			
+			<Anchor>//api/name/ATitle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AssignmentDetailsVC/setADeadline:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *ADeadline</Declaration>
+			
+			
+			<Anchor>//api/name/ADeadline</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AssignmentDetailsVC/ADeadline</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *ADeadline</Declaration>
+			
+			
+			<Anchor>//api/name/ADeadline</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AssignmentDetailsVC/setAStatus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *AStatus</Declaration>
+			
+			
+			<Anchor>//api/name/AStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AssignmentDetailsVC/AStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *AStatus</Declaration>
+			
+			
+			<Anchor>//api/name/AStatus</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AssignmentDetailsVC/setWebURLOutlet:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *WebURLOutlet</Declaration>
+			
+			
+			<Anchor>//api/name/WebURLOutlet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AssignmentDetailsVC/WebURLOutlet</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *WebURLOutlet</Declaration>
+			
+			
+			<Anchor>//api/name/WebURLOutlet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AssignmentDetailsVC/WebURLBtn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>- (IBAction)WebURLBtn:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/WebURLBtn:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AssignmentDetailsVC/setAMark:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *AMark</Declaration>
+			
+			
+			<Anchor>//api/name/AMark</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AssignmentDetailsVC/AMark</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *AMark</Declaration>
+			
+			
+			<Anchor>//api/name/AMark</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AssignmentDetailsVC/setAssignment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) assignments *assignment</Declaration>
+			
+			
+			<Anchor>//api/name/assignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AssignmentDetailsVC/assignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AssignmentDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) assignments *assignment</Declaration>
+			
+			
+			<Anchor>//api/name/assignment</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

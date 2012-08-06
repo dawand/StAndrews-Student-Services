@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SettingsTVC.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SettingsTVC</TokenIdentifier>
+			<Abstract type="html">Settings Table View Controller Class</Abstract>
+			<DeclaredIn>SettingsTVC.h</DeclaredIn>
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SettingsTVC/setSettings:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SettingsTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *settings</Declaration>
+			
+			
+			<Anchor>//api/name/settings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SettingsTVC/settings</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SettingsTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *settings</Declaration>
+			
+			
+			<Anchor>//api/name/settings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SettingsTVC/setUsernameChecked:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SettingsTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) Boolean usernameChecked</Declaration>
+			
+			
+			<Anchor>//api/name/usernameChecked</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SettingsTVC/usernameChecked</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SettingsTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) Boolean usernameChecked</Declaration>
+			
+			
+			<Anchor>//api/name/usernameChecked</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SettingsTVC/saveBtnTapped:</TokenIdentifier>
+			<Abstract type="html">* @name save changes in settings</Abstract>
+			<DeclaredIn>SettingsTVC.h</DeclaredIn>			
+			
+			<Declaration>- (IBAction)saveBtnTapped:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">of the Save button</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/saveBtnTapped:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

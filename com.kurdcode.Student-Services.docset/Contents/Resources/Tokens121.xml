@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/iCalendarEngineDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/iCalendarEngineDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>iCalendarEngine.h</DeclaredIn>
+			
+			<NodeRef refid="121"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/iCalendarEngineDelegate/loginSucceeded:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>iCalendarEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)loginSucceeded:(NSString *)accessToken</Declaration>
+			
+			
+			<Anchor>//api/name/loginSucceeded:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/iCalendarEngineDelegate/loginFailedWithError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>iCalendarEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)loginFailedWithError:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/loginFailedWithError:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/iCalendarEngineDelegate/menuFetchSucceeded:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>iCalendarEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)menuFetchSucceeded:(NSMutableArray *)menuItems</Declaration>
+			
+			
+			<Anchor>//api/name/menuFetchSucceeded:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/iCalendarEngineDelegate/menuFetchFailed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>iCalendarEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)menuFetchFailed:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/menuFetchFailed:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

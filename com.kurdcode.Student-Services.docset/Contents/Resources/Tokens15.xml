@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CGICalendarParameter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CGICalendarParameter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarParameter.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarParameter/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarParameter.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarParameter/initWithString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarParameter.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithString:(NSString *)aString</Declaration>
+			
+			
+			<Anchor>//api/name/initWithString:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarParameter/setString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarParameter.h</DeclaredIn>			
+			
+			<Declaration>- (void)setString:(NSString *)aString</Declaration>
+			
+			
+			<Anchor>//api/name/setString:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarParameter/string</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarParameter.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)string</Declaration>
+			
+			
+			<Anchor>//api/name/string</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

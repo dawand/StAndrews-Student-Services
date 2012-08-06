@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>St Andrews Student Driven Services App</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>AuthenticationEngine</Name>
+			<Path>Classes/AuthenticationEngine.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>RESTEngine</Name>
+			<Path>Classes/RESTEngine.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>RSSLoader</Name>
+			<Path>Classes/RSSLoader.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>iCalendarEngine</Name>
+			<Path>Classes/iCalendarEngine.html</Path>
+		</Node>
+		
+		
+		<Node id="5">
+			<Name>AuthenticationEngineDelegate</Name>
+			<Path>Protocols/AuthenticationEngineDelegate.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>RESTEngineDelegate</Name>
+			<Path>Protocols/RESTEngineDelegate.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>RSSLoaderDelegate</Name>
+			<Path>Protocols/RSSLoaderDelegate.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>iCalendarEngineDelegate</Name>
+			<Path>Protocols/iCalendarEngineDelegate.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

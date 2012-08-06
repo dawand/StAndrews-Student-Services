@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/RESTEngineDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/RESTEngineDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RESTEngine.h</DeclaredIn>
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/RESTEngineDelegate/loginSucceeded</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RESTEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)loginSucceeded</Declaration>
+			
+			
+			<Anchor>//api/name/loginSucceeded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/RESTEngineDelegate/loginFailedWithError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RESTEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)loginFailedWithError:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/loginFailedWithError:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/RESTEngineDelegate/moduleFetchSucceeded:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RESTEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)moduleFetchSucceeded:(NSMutableArray *)menuItems</Declaration>
+			
+			
+			<Anchor>//api/name/moduleFetchSucceeded:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/RESTEngineDelegate/moduleFetchFailed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RESTEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)moduleFetchFailed:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/moduleFetchFailed:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/RESTEngineDelegate/webViewLoginSucceeded:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RESTEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)webViewLoginSucceeded:(RESTRequest *)request</Declaration>
+			
+			
+			<Anchor>//api/name/webViewLoginSucceeded:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>Student Services</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						<NodeRef refid="35"/>
+						<NodeRef refid="36"/>
+						<NodeRef refid="37"/>
+						<NodeRef refid="38"/>
+						<NodeRef refid="39"/>
+						<NodeRef refid="40"/>
+						<NodeRef refid="41"/>
+						<NodeRef refid="42"/>
+						<NodeRef refid="43"/>
+						<NodeRef refid="44"/>
+						<NodeRef refid="45"/>
+						<NodeRef refid="46"/>
+						<NodeRef refid="47"/>
+						<NodeRef refid="48"/>
+						<NodeRef refid="49"/>
+						<NodeRef refid="50"/>
+						<NodeRef refid="51"/>
+						<NodeRef refid="52"/>
+						<NodeRef refid="53"/>
+						<NodeRef refid="54"/>
+						<NodeRef refid="55"/>
+						<NodeRef refid="56"/>
+						<NodeRef refid="57"/>
+						<NodeRef refid="58"/>
+						<NodeRef refid="59"/>
+						<NodeRef refid="60"/>
+						<NodeRef refid="61"/>
+						<NodeRef refid="62"/>
+						<NodeRef refid="63"/>
+						<NodeRef refid="64"/>
+						<NodeRef refid="65"/>
+						<NodeRef refid="66"/>
+						<NodeRef refid="67"/>
+						<NodeRef refid="68"/>
+						<NodeRef refid="69"/>
+						<NodeRef refid="70"/>
+						<NodeRef refid="71"/>
+						<NodeRef refid="72"/>
+						<NodeRef refid="73"/>
+						<NodeRef refid="74"/>
+						<NodeRef refid="75"/>
+						<NodeRef refid="76"/>
+						<NodeRef refid="77"/>
+						<NodeRef refid="78"/>
+						<NodeRef refid="79"/>
+						<NodeRef refid="80"/>
+						<NodeRef refid="81"/>
+						<NodeRef refid="82"/>
+						<NodeRef refid="83"/>
+						<NodeRef refid="84"/>
+						<NodeRef refid="85"/>
+						<NodeRef refid="86"/>
+						<NodeRef refid="87"/>
+						<NodeRef refid="88"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="89"/>
+						<NodeRef refid="90"/>
+						<NodeRef refid="91"/>
+						<NodeRef refid="92"/>
+						<NodeRef refid="93"/>
+						<NodeRef refid="94"/>
+						<NodeRef refid="95"/>
+						<NodeRef refid="96"/>
+						<NodeRef refid="97"/>
+						<NodeRef refid="98"/>
+						<NodeRef refid="99"/>
+						<NodeRef refid="100"/>
+						<NodeRef refid="101"/>
+						<NodeRef refid="102"/>
+						<NodeRef refid="103"/>
+						<NodeRef refid="104"/>
+						<NodeRef refid="105"/>
+						<NodeRef refid="106"/>
+						<NodeRef refid="107"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="108"/>
+						<NodeRef refid="109"/>
+						<NodeRef refid="110"/>
+						<NodeRef refid="111"/>
+						<NodeRef refid="112"/>
+						<NodeRef refid="113"/>
+						<NodeRef refid="114"/>
+						<NodeRef refid="115"/>
+						<NodeRef refid="116"/>
+						<NodeRef refid="117"/>
+						<NodeRef refid="118"/>
+						<NodeRef refid="119"/>
+						<NodeRef refid="120"/>
+						<NodeRef refid="121"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>ASIDataCompressor</Name>
+			<Path>Classes/ASIDataCompressor.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>ASIDataDecompressor</Name>
+			<Path>Classes/ASIDataDecompressor.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>ASIDownloadCache</Name>
+			<Path>Classes/ASIDownloadCache.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>ASIFormDataRequest</Name>
+			<Path>Classes/ASIFormDataRequest.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>ASIHTTPRequest</Name>
+			<Path>Classes/ASIHTTPRequest.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>ASIInputStream</Name>
+			<Path>Classes/ASIInputStream.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>ASINetworkQueue</Name>
+			<Path>Classes/ASINetworkQueue.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>AppDelegate</Name>
+			<Path>Classes/AppDelegate.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>AssignmentDetailsVC</Name>
+			<Path>Classes/AssignmentDetailsVC.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>AssignmentsTVC</Name>
+			<Path>Classes/AssignmentsTVC.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>CGICalendar</Name>
+			<Path>Classes/CGICalendar.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>CGICalendarComponent</Name>
+			<Path>Classes/CGICalendarComponent.html</Path>
+		</Node>
+		<Node id="13">
+			<Name>CGICalendarContentLine</Name>
+			<Path>Classes/CGICalendarContentLine.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>CGICalendarObject</Name>
+			<Path>Classes/CGICalendarObject.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>CGICalendarParameter</Name>
+			<Path>Classes/CGICalendarParameter.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>CGICalendarProperty</Name>
+			<Path>Classes/CGICalendarProperty.html</Path>
+		</Node>
+		<Node id="17">
+			<Name>CGICalendarValue</Name>
+			<Path>Classes/CGICalendarValue.html</Path>
+		</Node>
+		<Node id="18">
+			<Name>GDataXMLDocument</Name>
+			<Path>Classes/GDataXMLDocument.html</Path>
+		</Node>
+		<Node id="19">
+			<Name>GDataXMLElement</Name>
+			<Path>Classes/GDataXMLElement.html</Path>
+		</Node>
+		<Node id="20">
+			<Name>GDataXMLNode</Name>
+			<Path>Classes/GDataXMLNode.html</Path>
+		</Node>
+		<Node id="21">
+			<Name>JSONDecoder</Name>
+			<Path>Classes/JSONDecoder.html</Path>
+		</Node>
+		<Node id="22">
+			<Name>KeychainItemWrapper</Name>
+			<Path>Classes/KeychainItemWrapper.html</Path>
+		</Node>
+		<Node id="23">
+			<Name>LibraryRSSLoaderTVC</Name>
+			<Path>Classes/LibraryRSSLoaderTVC.html</Path>
+		</Node>
+		<Node id="24">
+			<Name>LocationMapVC</Name>
+			<Path>Classes/LocationMapVC.html</Path>
+		</Node>
+		<Node id="25">
+			<Name>LoginVC</Name>
+			<Path>Classes/LoginVC.html</Path>
+		</Node>
+		<Node id="26">
+			<Name>MainTVC</Name>
+			<Path>Classes/MainTVC.html</Path>
+		</Node>
+		<Node id="27">
+			<Name>MapAnnotation</Name>
+			<Path>Classes/MapAnnotation.html</Path>
+		</Node>
+		<Node id="28">
+			<Name>Model</Name>
+			<Path>Classes/Model.html</Path>
+		</Node>
+		<Node id="29">
+			<Name>ModuleWebVC</Name>
+			<Path>Classes/ModuleWebVC.html</Path>
+		</Node>
+		<Node id="30">
+			<Name>ModulesCache</Name>
+			<Path>Classes/ModulesCache.html</Path>
+		</Node>
+		<Node id="31">
+			<Name>ModulesTVC</Name>
+			<Path>Classes/ModulesTVC.html</Path>
+		</Node>
+		<Node id="32">
+			<Name>RESTEngine</Name>
+			<Path>Classes/RESTEngine.html</Path>
+		</Node>
+		<Node id="33">
+			<Name>RESTError</Name>
+			<Path>Classes/RESTError.html</Path>
+		</Node>
+		<Node id="34">
+			<Name>RESTRequest</Name>
+			<Path>Classes/RESTRequest.html</Path>
+		</Node>
+		<Node id="35">
+			<Name>RSSDetailsVC</Name>
+			<Path>Classes/RSSDetailsVC.html</Path>
+		</Node>
+		<Node id="36">
+			<Name>RSSLoader</Name>
+			<Path>Classes/RSSLoader.html</Path>
+		</Node>
+		<Node id="37">
+			<Name>RSSLoaderTVC</Name>
+			<Path>Classes/RSSLoaderTVC.html</Path>
+		</Node>
+		<Node id="38">
+			<Name>Reachability</Name>
+			<Path>Classes/Reachability.html</Path>
+		</Node>
+		<Node id="39">
+			<Name>SettingsTVC</Name>
+			<Path>Classes/SettingsTVC.html</Path>
+		</Node>
+		<Node id="40">
+			<Name>TKAlertCenter</Name>
+			<Path>Classes/TKAlertCenter.html</Path>
+		</Node>
+		<Node id="41">
+			<Name>TKAppDelegate</Name>
+			<Path>Classes/TKAppDelegate.html</Path>
+		</Node>
+		<Node id="42">
+			<Name>TKButtonCell</Name>
+			<Path>Classes/TKButtonCell.html</Path>
+		</Node>
+		<Node id="43">
+			<Name>TKCalendarDayEventView</Name>
+			<Path>Classes/TKCalendarDayEventView.html</Path>
+		</Node>
+		<Node id="44">
+			<Name>TKCalendarDayTimelineView</Name>
+			<Path>Classes/TKCalendarDayTimelineView.html</Path>
+		</Node>
+		<Node id="45">
+			<Name>TKCalendarDayViewController</Name>
+			<Path>Classes/TKCalendarDayViewController.html</Path>
+		</Node>
+		<Node id="46">
+			<Name>TKCalendarMonthTableViewController</Name>
+			<Path>Classes/TKCalendarMonthTableViewController.html</Path>
+		</Node>
+		<Node id="47">
+			<Name>TKCalendarMonthView</Name>
+			<Path>Classes/TKCalendarMonthView.html</Path>
+		</Node>
+		<Node id="48">
+			<Name>TKCalendarMonthViewController</Name>
+			<Path>Classes/TKCalendarMonthViewController.html</Path>
+		</Node>
+		<Node id="49">
+			<Name>TKCoverflowCoverView</Name>
+			<Path>Classes/TKCoverflowCoverView.html</Path>
+		</Node>
+		<Node id="50">
+			<Name>TKCoverflowView</Name>
+			<Path>Classes/TKCoverflowView.html</Path>
+		</Node>
+		<Node id="51">
+			<Name>TKEmptyView</Name>
+			<Path>Classes/TKEmptyView.html</Path>
+		</Node>
+		<Node id="52">
+			<Name>TKGlobal</Name>
+			<Path>Classes/TKGlobal.html</Path>
+		</Node>
+		<Node id="53">
+			<Name>TKGradientView</Name>
+			<Path>Classes/TKGradientView.html</Path>
+		</Node>
+		<Node id="54">
+			<Name>TKHTTPRequest</Name>
+			<Path>Classes/TKHTTPRequest.html</Path>
+		</Node>
+		<Node id="55">
+			<Name>TKImageCache</Name>
+			<Path>Classes/TKImageCache.html</Path>
+		</Node>
+		<Node id="56">
+			<Name>TKLabelCell</Name>
+			<Path>Classes/TKLabelCell.html</Path>
+		</Node>
+		<Node id="57">
+			<Name>TKLabelFieldCell</Name>
+			<Path>Classes/TKLabelFieldCell.html</Path>
+		</Node>
+		<Node id="58">
+			<Name>TKLabelSwitchCell</Name>
+			<Path>Classes/TKLabelSwitchCell.html</Path>
+		</Node>
+		<Node id="59">
+			<Name>TKLabelTextFieldCell</Name>
+			<Path>Classes/TKLabelTextFieldCell.html</Path>
+		</Node>
+		<Node id="60">
+			<Name>TKLabelTextViewCell</Name>
+			<Path>Classes/TKLabelTextViewCell.html</Path>
+		</Node>
+		<Node id="61">
+			<Name>TKMapPlace</Name>
+			<Path>Classes/TKMapPlace.html</Path>
+		</Node>
+		<Node id="62">
+			<Name>TKMapView</Name>
+			<Path>Classes/TKMapView.html</Path>
+		</Node>
+		<Node id="63">
+			<Name>TKNetworkQueue</Name>
+			<Path>Classes/TKNetworkQueue.html</Path>
+		</Node>
+		<Node id="64">
+			<Name>TKProgressAlertView</Name>
+			<Path>Classes/TKProgressAlertView.html</Path>
+		</Node>
+		<Node id="65">
+			<Name>TKProgressBarView</Name>
+			<Path>Classes/TKProgressBarView.html</Path>
+		</Node>
+		<Node id="66">
+			<Name>TKProgressCircleView</Name>
+			<Path>Classes/TKProgressCircleView.html</Path>
+		</Node>
+		<Node id="67">
+			<Name>TKShapeView</Name>
+			<Path>Classes/TKShapeView.html</Path>
+		</Node>
+		<Node id="68">
+			<Name>TKSwitchCell</Name>
+			<Path>Classes/TKSwitchCell.html</Path>
+		</Node>
+		<Node id="69">
+			<Name>TKTableViewCell</Name>
+			<Path>Classes/TKTableViewCell.html</Path>
+		</Node>
+		<Node id="70">
+			<Name>TKTableViewController</Name>
+			<Path>Classes/TKTableViewController.html</Path>
+		</Node>
+		<Node id="71">
+			<Name>TKTextViewCell</Name>
+			<Path>Classes/TKTextViewCell.html</Path>
+		</Node>
+		<Node id="72">
+			<Name>TKTimelineView</Name>
+			<Path>Classes/TKTimelineView.html</Path>
+		</Node>
+		<Node id="73">
+			<Name>TKViewController</Name>
+			<Path>Classes/TKViewController.html</Path>
+		</Node>
+		<Node id="74">
+			<Name>TKWindow</Name>
+			<Path>Classes/TKWindow.html</Path>
+		</Node>
+		<Node id="75">
+			<Name>TapDetectingView</Name>
+			<Path>Classes/TapDetectingView.html</Path>
+		</Node>
+		<Node id="76">
+			<Name>TimetableCache</Name>
+			<Path>Classes/TimetableCache.html</Path>
+		</Node>
+		<Node id="77">
+			<Name>TimetableModule</Name>
+			<Path>Classes/TimetableModule.html</Path>
+		</Node>
+		<Node id="78">
+			<Name>TimetableModuleDetailsVC</Name>
+			<Path>Classes/TimetableModuleDetailsVC.html</Path>
+		</Node>
+		<Node id="79">
+			<Name>TimetableTVC</Name>
+			<Path>Classes/TimetableTVC.html</Path>
+		</Node>
+		<Node id="80">
+			<Name>UniEventsCache</Name>
+			<Path>Classes/UniEventsCache.html</Path>
+		</Node>
+		<Node id="81">
+			<Name>UniNewsCache</Name>
+			<Path>Classes/UniNewsCache.html</Path>
+		</Node>
+		<Node id="82">
+			<Name>UniRSSLoaderTVC</Name>
+			<Path>Classes/UniRSSLoaderTVC.html</Path>
+		</Node>
+		<Node id="83">
+			<Name>UniversityNewsModel</Name>
+			<Path>Classes/UniversityNewsModel.html</Path>
+		</Node>
+		<Node id="84">
+			<Name>assignments</Name>
+			<Path>Classes/assignments.html</Path>
+		</Node>
+		<Node id="85">
+			<Name>coursework</Name>
+			<Path>Classes/coursework.html</Path>
+		</Node>
+		<Node id="86">
+			<Name>iCalendarEngine</Name>
+			<Path>Classes/iCalendarEngine.html</Path>
+		</Node>
+		<Node id="87">
+			<Name>modules</Name>
+			<Path>Classes/modules.html</Path>
+		</Node>
+		<Node id="88">
+			<Name>secondTimetableVC</Name>
+			<Path>Classes/secondTimetableVC.html</Path>
+		</Node>
+		
+		<Node id="89">
+			<Name>NSArray(JSONKitSerializing)</Name>
+			<Path>Categories/NSArray+JSONKitSerializing.html</Path>
+		</Node>
+		<Node id="90">
+			<Name>NSArray(JSONKitSerializingBlockAdditions)</Name>
+			<Path>Categories/NSArray+JSONKitSerializingBlockAdditions.html</Path>
+		</Node>
+		<Node id="91">
+			<Name>NSArray(TKCategory)</Name>
+			<Path>Categories/NSArray+TKCategory.html</Path>
+		</Node>
+		<Node id="92">
+			<Name>NSData(JSONKitDeserializing)</Name>
+			<Path>Categories/NSData+JSONKitDeserializing.html</Path>
+		</Node>
+		<Node id="93">
+			<Name>NSDate(CGICalendar)</Name>
+			<Path>Categories/NSDate+CGICalendar.html</Path>
+		</Node>
+		<Node id="94">
+			<Name>NSDate(TKCategory)</Name>
+			<Path>Categories/NSDate+TKCategory.html</Path>
+		</Node>
+		<Node id="95">
+			<Name>NSDictionary(JSONKitSerializing)</Name>
+			<Path>Categories/NSDictionary+JSONKitSerializing.html</Path>
+		</Node>
+		<Node id="96">
+			<Name>NSDictionary(JSONKitSerializingBlockAdditions)</Name>
+			<Path>Categories/NSDictionary+JSONKitSerializingBlockAdditions.html</Path>
+		</Node>
+		<Node id="97">
+			<Name>NSString(JSONKitDeserializing)</Name>
+			<Path>Categories/NSString+JSONKitDeserializing.html</Path>
+		</Node>
+		<Node id="98">
+			<Name>NSString(JSONKitSerializing)</Name>
+			<Path>Categories/NSString+JSONKitSerializing.html</Path>
+		</Node>
+		<Node id="99">
+			<Name>NSString(TKCategory)</Name>
+			<Path>Categories/NSString+TKCategory.html</Path>
+		</Node>
+		<Node id="100">
+			<Name>UIBarButtonItem(TKCategory)</Name>
+			<Path>Categories/UIBarButtonItem+TKCategory.html</Path>
+		</Node>
+		<Node id="101">
+			<Name>UIButton(TKCategory)</Name>
+			<Path>Categories/UIButton+TKCategory.html</Path>
+		</Node>
+		<Node id="102">
+			<Name>UIColor(TKCategory)</Name>
+			<Path>Categories/UIColor+TKCategory.html</Path>
+		</Node>
+		<Node id="103">
+			<Name>UIImage(TKCategory)</Name>
+			<Path>Categories/UIImage+TKCategory.html</Path>
+		</Node>
+		<Node id="104">
+			<Name>UIImageView(TKCategory)</Name>
+			<Path>Categories/UIImageView+TKCategory.html</Path>
+		</Node>
+		<Node id="105">
+			<Name>UIScrollView(TKCategory)</Name>
+			<Path>Categories/UIScrollView+TKCategory.html</Path>
+		</Node>
+		<Node id="106">
+			<Name>UIView(TKCategory)</Name>
+			<Path>Categories/UIView+TKCategory.html</Path>
+		</Node>
+		<Node id="107">
+			<Name>UIViewController(TKCategory)</Name>
+			<Path>Categories/UIViewController+TKCategory.html</Path>
+		</Node>
+		
+		<Node id="108">
+			<Name>ASICacheDelegate</Name>
+			<Path>Protocols/ASICacheDelegate.html</Path>
+		</Node>
+		<Node id="109">
+			<Name>ASIHTTPRequestDelegate</Name>
+			<Path>Protocols/ASIHTTPRequestDelegate.html</Path>
+		</Node>
+		<Node id="110">
+			<Name>ASIProgressDelegate</Name>
+			<Path>Protocols/ASIProgressDelegate.html</Path>
+		</Node>
+		<Node id="111">
+			<Name>RESTEngineDelegate</Name>
+			<Path>Protocols/RESTEngineDelegate.html</Path>
+		</Node>
+		<Node id="112">
+			<Name>RSSLoaderDelegate</Name>
+			<Path>Protocols/RSSLoaderDelegate.html</Path>
+		</Node>
+		<Node id="113">
+			<Name>TKCalendarDayTimelineViewDelegate</Name>
+			<Path>Protocols/TKCalendarDayTimelineViewDelegate.html</Path>
+		</Node>
+		<Node id="114">
+			<Name>TKCalendarMonthViewDataSource</Name>
+			<Path>Protocols/TKCalendarMonthViewDataSource.html</Path>
+		</Node>
+		<Node id="115">
+			<Name>TKCalendarMonthViewDelegate</Name>
+			<Path>Protocols/TKCalendarMonthViewDelegate.html</Path>
+		</Node>
+		<Node id="116">
+			<Name>TKCoverflowViewDataSource</Name>
+			<Path>Protocols/TKCoverflowViewDataSource.html</Path>
+		</Node>
+		<Node id="117">
+			<Name>TKCoverflowViewDelegate</Name>
+			<Path>Protocols/TKCoverflowViewDelegate.html</Path>
+		</Node>
+		<Node id="118">
+			<Name>TKHTTPRequestProgressDelegate</Name>
+			<Path>Protocols/TKHTTPRequestProgressDelegate.html</Path>
+		</Node>
+		<Node id="119">
+			<Name>TKMapViewDelegate</Name>
+			<Path>Protocols/TKMapViewDelegate.html</Path>
+		</Node>
+		<Node id="120">
+			<Name>TapDetectingViewDelegate</Name>
+			<Path>Protocols/TapDetectingViewDelegate.html</Path>
+		</Node>
+		<Node id="121">
+			<Name>iCalendarEngineDelegate</Name>
+			<Path>Protocols/iCalendarEngineDelegate.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

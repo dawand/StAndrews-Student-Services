@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TDBadgeView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TDBadgeView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TDBadgeView/setWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TDBadgeView/width</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TDBadgeView/setBadgeString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *badgeString</Declaration>
+			
+			
+			<Anchor>//api/name/badgeString</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TDBadgeView/badgeString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *badgeString</Declaration>
+			
+			
+			<Anchor>//api/name/badgeString</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TDBadgeView/setParent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UITableViewCell *parent</Declaration>
+			
+			
+			<Anchor>//api/name/parent</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TDBadgeView/parent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UITableViewCell *parent</Declaration>
+			
+			
+			<Anchor>//api/name/parent</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TDBadgeView/setBadgeColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *badgeColor</Declaration>
+			
+			
+			<Anchor>//api/name/badgeColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TDBadgeView/badgeColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *badgeColor</Declaration>
+			
+			
+			<Anchor>//api/name/badgeColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TDBadgeView/setBadgeColorHighlighted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *badgeColorHighlighted</Declaration>
+			
+			
+			<Anchor>//api/name/badgeColorHighlighted</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TDBadgeView/badgeColorHighlighted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *badgeColorHighlighted</Declaration>
+			
+			
+			<Anchor>//api/name/badgeColorHighlighted</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TDBadgeView/setShowShadow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL showShadow</Declaration>
+			
+			
+			<Anchor>//api/name/showShadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TDBadgeView/showShadow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL showShadow</Declaration>
+			
+			
+			<Anchor>//api/name/showShadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TDBadgeView/setRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat radius</Declaration>
+			
+			
+			<Anchor>//api/name/radius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TDBadgeView/radius</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TDBadgedCell.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat radius</Declaration>
+			
+			
+			<Anchor>//api/name/radius</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

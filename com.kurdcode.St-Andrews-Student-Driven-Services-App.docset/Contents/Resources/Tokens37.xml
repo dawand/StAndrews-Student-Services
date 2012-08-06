@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TimetableModuleDetailsVC.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TimetableModuleDetailsVC</TokenIdentifier>
+			<Abstract type="html">Time table Module Details View Controller</Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>
+			
+			<NodeRef refid="37"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModuleDetailsVC/setTm:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) TimetableModule *tm</Declaration>
+			
+			
+			<Anchor>//api/name/tm</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModuleDetailsVC/tm</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) TimetableModule *tm</Declaration>
+			
+			
+			<Anchor>//api/name/tm</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModuleDetailsVC/setModuleTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *ModuleTitle</Declaration>
+			
+			
+			<Anchor>//api/name/ModuleTitle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModuleDetailsVC/ModuleTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *ModuleTitle</Declaration>
+			
+			
+			<Anchor>//api/name/ModuleTitle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModuleDetailsVC/setModuleCode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *ModuleCode</Declaration>
+			
+			
+			<Anchor>//api/name/ModuleCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModuleDetailsVC/ModuleCode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *ModuleCode</Declaration>
+			
+			
+			<Anchor>//api/name/ModuleCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModuleDetailsVC/setLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *Location</Declaration>
+			
+			
+			<Anchor>//api/name/Location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModuleDetailsVC/Location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *Location</Declaration>
+			
+			
+			<Anchor>//api/name/Location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModuleDetailsVC/setDateStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *DateStart</Declaration>
+			
+			
+			<Anchor>//api/name/DateStart</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModuleDetailsVC/DateStart</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *DateStart</Declaration>
+			
+			
+			<Anchor>//api/name/DateStart</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModuleDetailsVC/setDateEnd:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *DateEnd</Declaration>
+			
+			
+			<Anchor>//api/name/DateEnd</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModuleDetailsVC/DateEnd</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *DateEnd</Declaration>
+			
+			
+			<Anchor>//api/name/DateEnd</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModuleDetailsVC/setSelectedDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *selectedDate</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModuleDetailsVC/selectedDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *selectedDate</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModuleDetailsVC/setRemindMeBtn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *remindMeBtn</Declaration>
+			
+			
+			<Anchor>//api/name/remindMeBtn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModuleDetailsVC/remindMeBtn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *remindMeBtn</Declaration>
+			
+			
+			<Anchor>//api/name/remindMeBtn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModuleDetailsVC/showLocationMap:</TokenIdentifier>
+			<Abstract type="html">This method sends the module location to the map view</Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>- (IBAction)showLocationMap:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/showLocationMap:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModuleDetailsVC/scheduleNotification:</TokenIdentifier>
+			<Abstract type="html">This method handles scheduling notification for the module start date</Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>- (IBAction)scheduleNotification:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/scheduleNotification:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModuleDetailsVC/anotherNotifier:</TokenIdentifier>
+			<Abstract type="html">This method is just for testing purpose to set a one minute reminder</Abstract>
+			<DeclaredIn>TimetableModuleDetailsVC.h</DeclaredIn>			
+			
+			<Declaration>- (IBAction)anotherNotifier:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/anotherNotifier:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

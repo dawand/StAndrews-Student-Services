@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RESTRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RESTRequest</TokenIdentifier>
+			<Abstract type="html">This is the authentication request sent to the sevrer for authentication</Abstract>
+			<DeclaredIn>RESTRequest.h</DeclaredIn>
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RESTRequest/setRestError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RESTRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) RESTError *restError</Declaration>
+			
+			
+			<Anchor>//api/name/restError</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RESTRequest/restError</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RESTRequest.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) RESTError *restError</Declaration>
+			
+			
+			<Anchor>//api/name/restError</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RESTRequest/responseDictionary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RESTRequest.h</DeclaredIn>			
+			
+			<Declaration>- (NSMutableDictionary *)responseDictionary</Declaration>
+			
+			
+			<Anchor>//api/name/responseDictionary</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

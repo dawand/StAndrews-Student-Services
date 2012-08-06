@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AppDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AppDelegate</TokenIdentifier>
+			<Abstract type="html">Application Delegate Class</Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppDelegate/setWindow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UIWindow *window</Declaration>
+			
+			
+			<Anchor>//api/name/window</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AppDelegate/window</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>			
+			
+			<Declaration>@property (strong, nonatomic) UIWindow *window</Declaration>
+			
+			
+			<Anchor>//api/name/window</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppDelegate/setAuthEngine:</TokenIdentifier>
+			<Abstract type="html">Authentication Engine used by login view and module web view controllers for authenticating the student</Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) AuthenticationEngine *AuthEngine</Declaration>
+			
+			
+			<Anchor>//api/name/AuthEngine</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AppDelegate/AuthEngine</TokenIdentifier>
+			<Abstract type="html">Authentication Engine used by login view and module web view controllers for authenticating the student</Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) AuthenticationEngine *AuthEngine</Declaration>
+			
+			
+			<Anchor>//api/name/AuthEngine</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppDelegate/setEngine:</TokenIdentifier>
+			<Abstract type="html">REST Engine used by modules Table view controller for retrieving the list of modules and assignments</Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) RESTEngine *engine</Declaration>
+			
+			
+			<Anchor>//api/name/engine</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AppDelegate/engine</TokenIdentifier>
+			<Abstract type="html">REST Engine used by modules Table view controller for retrieving the list of modules and assignments</Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) RESTEngine *engine</Declaration>
+			
+			
+			<Anchor>//api/name/engine</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppDelegate/setCalendarEngine:</TokenIdentifier>
+			<Abstract type="html">Calendar Engine used by timetable table view controller for retrieving the list of timetable modules and their properties</Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) iCalendarEngine *CalendarEngine</Declaration>
+			
+			
+			<Anchor>//api/name/CalendarEngine</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AppDelegate/CalendarEngine</TokenIdentifier>
+			<Abstract type="html">Calendar Engine used by timetable table view controller for retrieving the list of timetable modules and their properties</Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) iCalendarEngine *CalendarEngine</Declaration>
+			
+			
+			<Anchor>//api/name/CalendarEngine</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

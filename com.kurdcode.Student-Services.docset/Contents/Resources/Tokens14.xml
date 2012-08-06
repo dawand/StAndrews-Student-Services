@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CGICalendarObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CGICalendarObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CGICalendarObject/object</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>+ (id)object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CGICalendarObject/objectWithProdid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>+ (id)objectWithProdid:(NSString *)prodid</Declaration>
+			
+			
+			<Anchor>//api/name/objectWithProdid:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CGICalendarObject/objectWithProdid:version:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>+ (id)objectWithProdid:(NSString *)prodid version:(NSString *)version</Declaration>
+			
+			
+			<Anchor>//api/name/objectWithProdid:version:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/initWithProdid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithProdid:(NSString *)prodid</Declaration>
+			
+			
+			<Anchor>//api/name/initWithProdid:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/initWithProdid:version:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithProdid:(NSString *)prodid version:(NSString *)version</Declaration>
+			
+			
+			<Anchor>//api/name/initWithProdid:version:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/setVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (void)setVersion:(NSString *)version</Declaration>
+			
+			
+			<Anchor>//api/name/setVersion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/version</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)version</Declaration>
+			
+			
+			<Anchor>//api/name/version</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/setProdid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (void)setProdid:(NSString *)prodid</Declaration>
+			
+			
+			<Anchor>//api/name/setProdid:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/prodid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)prodid</Declaration>
+			
+			
+			<Anchor>//api/name/prodid</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/componentsWithType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)componentsWithType:(NSString *)type</Declaration>
+			
+			
+			<Anchor>//api/name/componentsWithType:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/events</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)events</Declaration>
+			
+			
+			<Anchor>//api/name/events</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/todos</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)todos</Declaration>
+			
+			
+			<Anchor>//api/name/todos</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/journals</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)journals</Declaration>
+			
+			
+			<Anchor>//api/name/journals</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/freebusies</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)freebusies</Declaration>
+			
+			
+			<Anchor>//api/name/freebusies</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarObject/timezones</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarObject.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)timezones</Declaration>
+			
+			
+			<Anchor>//api/name/timezones</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

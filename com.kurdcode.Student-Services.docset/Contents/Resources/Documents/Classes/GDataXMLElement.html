@@ -1,0 +1,532 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>GDataXMLElement Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Student Services </a></h1>
+				<a id="developerHome" href="../index.html">St Andrews</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">GDataXMLElement Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addAttribute:">&nbsp;&nbsp;&nbsp;&nbsp;- addAttribute:</option>
+	
+	<option value="//api/name/addChild:">&nbsp;&nbsp;&nbsp;&nbsp;- addChild:</option>
+	
+	<option value="//api/name/addNamespace:">&nbsp;&nbsp;&nbsp;&nbsp;- addNamespace:</option>
+	
+	<option value="//api/name/attributeForLocalName:URI:">&nbsp;&nbsp;&nbsp;&nbsp;- attributeForLocalName:URI:</option>
+	
+	<option value="//api/name/attributeForName:">&nbsp;&nbsp;&nbsp;&nbsp;- attributeForName:</option>
+	
+	<option value="//api/name/attributes">&nbsp;&nbsp;&nbsp;&nbsp;- attributes</option>
+	
+	<option value="//api/name/elementsForLocalName:URI:">&nbsp;&nbsp;&nbsp;&nbsp;- elementsForLocalName:URI:</option>
+	
+	<option value="//api/name/elementsForName:">&nbsp;&nbsp;&nbsp;&nbsp;- elementsForName:</option>
+	
+	<option value="//api/name/initWithXMLString:error:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithXMLString:error:</option>
+	
+	<option value="//api/name/namespaces">&nbsp;&nbsp;&nbsp;&nbsp;- namespaces</option>
+	
+	<option value="//api/name/removeChild:">&nbsp;&nbsp;&nbsp;&nbsp;- removeChild:</option>
+	
+	<option value="//api/name/resolvePrefixForNamespaceURI:">&nbsp;&nbsp;&nbsp;&nbsp;- resolvePrefixForNamespaceURI:</option>
+	
+	<option value="//api/name/setNamespaces:">&nbsp;&nbsp;&nbsp;&nbsp;- setNamespaces:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addAttribute:">addAttribute:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addChild:">addChild:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addNamespace:">addNamespace:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attributeForLocalName:URI:">attributeForLocalName:URI:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attributeForName:">attributeForName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attributes">attributes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/elementsForLocalName:URI:">elementsForLocalName:URI:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/elementsForName:">elementsForName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithXMLString:error:">initWithXMLString:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/namespaces">namespaces</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeChild:">removeChild:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resolvePrefixForNamespaceURI:">resolvePrefixForNamespaceURI:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setNamespaces:">setNamespaces:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="GDataXMLElement Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">GDataXMLElement Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/GDataXMLNode.html">GDataXMLNode</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">gDataXMLNode.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithXMLString:error:">&ndash;&nbsp;initWithXMLString:error:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/namespaces">&ndash;&nbsp;namespaces</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setNamespaces:">&ndash;&nbsp;setNamespaces:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addNamespace:">&ndash;&nbsp;addNamespace:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addChild:">&ndash;&nbsp;addChild:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeChild:">&ndash;&nbsp;removeChild:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/elementsForName:">&ndash;&nbsp;elementsForName:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/elementsForLocalName:URI:">&ndash;&nbsp;elementsForLocalName:URI:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attributes">&ndash;&nbsp;attributes</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attributeForName:">&ndash;&nbsp;attributeForName:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attributeForLocalName:URI:">&ndash;&nbsp;attributeForLocalName:URI:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addAttribute:">&ndash;&nbsp;addAttribute:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resolvePrefixForNamespaceURI:">&ndash;&nbsp;resolvePrefixForNamespaceURI:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addAttribute:" title="addAttribute:"></a>
+	<h3 class="subsubtitle method-title">addAttribute:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addAttribute:(GDataXMLNode *)<em>attribute</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addChild:" title="addChild:"></a>
+	<h3 class="subsubtitle method-title">addChild:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addChild:(GDataXMLNode *)<em>child</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addNamespace:" title="addNamespace:"></a>
+	<h3 class="subsubtitle method-title">addNamespace:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addNamespace:(GDataXMLNode *)<em>aNamespace</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/attributeForLocalName:URI:" title="attributeForLocalName:URI:"></a>
+	<h3 class="subsubtitle method-title">attributeForLocalName:URI:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GDataXMLNode *)attributeForLocalName:(NSString *)<em>name</em> URI:(NSString *)<em>attributeURI</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/attributeForName:" title="attributeForName:"></a>
+	<h3 class="subsubtitle method-title">attributeForName:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GDataXMLNode *)attributeForName:(NSString *)<em>name</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/attributes" title="attributes"></a>
+	<h3 class="subsubtitle method-title">attributes</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)attributes</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/elementsForLocalName:URI:" title="elementsForLocalName:URI:"></a>
+	<h3 class="subsubtitle method-title">elementsForLocalName:URI:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)elementsForLocalName:(NSString *)<em>localName</em> URI:(NSString *)<em>URI</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/elementsForName:" title="elementsForName:"></a>
+	<h3 class="subsubtitle method-title">elementsForName:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)elementsForName:(NSString *)<em>name</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithXMLString:error:" title="initWithXMLString:error:"></a>
+	<h3 class="subsubtitle method-title">initWithXMLString:error:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithXMLString:(NSString *)<em>str</em> error:(NSError **)<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/namespaces" title="namespaces"></a>
+	<h3 class="subsubtitle method-title">namespaces</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)namespaces</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeChild:" title="removeChild:"></a>
+	<h3 class="subsubtitle method-title">removeChild:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)removeChild:(GDataXMLNode *)<em>child</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resolvePrefixForNamespaceURI:" title="resolvePrefixForNamespaceURI:"></a>
+	<h3 class="subsubtitle method-title">resolvePrefixForNamespaceURI:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)resolvePrefixForNamespaceURI:(NSString *)<em>namespaceURI</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setNamespaces:" title="setNamespaces:"></a>
+	<h3 class="subsubtitle method-title">setNamespaces:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setNamespaces:(NSArray *)<em>namespaces</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 St Andrews. All rights reserved. (Last updated: 2012-07-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

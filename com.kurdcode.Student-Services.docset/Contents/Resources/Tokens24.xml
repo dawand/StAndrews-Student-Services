@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LocationMapVC.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LocationMapVC</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LocationMapVC.h</DeclaredIn>
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LocationMapVC/setLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LocationMapVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LocationMapVC/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LocationMapVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LocationMapVC/setLocationManager:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LocationMapVC.h</DeclaredIn>			
+			
+			<Declaration>@property (retain, nonatomic) CLLocationManager *locationManager</Declaration>
+			
+			
+			<Anchor>//api/name/locationManager</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LocationMapVC/locationManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LocationMapVC.h</DeclaredIn>			
+			
+			<Declaration>@property (retain, nonatomic) CLLocationManager *locationManager</Declaration>
+			
+			
+			<Anchor>//api/name/locationManager</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LocationMapVC/setMapView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LocationMapVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet MKMapView *MapView</Declaration>
+			
+			
+			<Anchor>//api/name/MapView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LocationMapVC/MapView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LocationMapVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet MKMapView *MapView</Declaration>
+			
+			
+			<Anchor>//api/name/MapView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LocationMapVC/locateMe:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LocationMapVC.h</DeclaredIn>			
+			
+			<Declaration>- (IBAction)locateMe:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/locateMe:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

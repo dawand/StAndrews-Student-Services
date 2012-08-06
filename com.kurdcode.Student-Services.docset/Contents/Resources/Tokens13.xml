@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CGICalendarContentLine.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CGICalendarContentLine</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarContentLine.h</DeclaredIn>
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CGICalendarContentLine/IsFoldingLineString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarContentLine.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)IsFoldingLineString:(NSString *)aString</Declaration>
+			
+			
+			<Anchor>//api/name/IsFoldingLineString:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CGICalendarContentLine/contentLineWithString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarContentLine.h</DeclaredIn>			
+			
+			<Declaration>+ (id)contentLineWithString:(NSString *)aString</Declaration>
+			
+			
+			<Anchor>//api/name/contentLineWithString:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarContentLine/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarContentLine.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarContentLine/initWithString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarContentLine.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithString:(NSString *)aString</Declaration>
+			
+			
+			<Anchor>//api/name/initWithString:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarContentLine/setString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarContentLine.h</DeclaredIn>			
+			
+			<Declaration>- (void)setString:(NSString *)aString</Declaration>
+			
+			
+			<Anchor>//api/name/setString:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarContentLine/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarContentLine.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarContentLine/isBegin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarContentLine.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isBegin</Declaration>
+			
+			
+			<Anchor>//api/name/isBegin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendarContentLine/isEnd</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendarContentLine.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isEnd</Declaration>
+			
+			
+			<Anchor>//api/name/isEnd</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

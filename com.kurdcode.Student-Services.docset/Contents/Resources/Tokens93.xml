@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDate+CGICalendar.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDate(CGICalendar)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+CGICalendar.h</DeclaredIn>
+			
+			<NodeRef refid="93"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(CGICalendar)/dateWithICalendarString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>+ (id)dateWithICalendarString:(NSString *)aString</Declaration>
+			
+			
+			<Anchor>//api/name/dateWithICalendarString:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(CGICalendar)/dateWithICalendarISO8601:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>+ (id)dateWithICalendarISO8601:(NSString *)aString</Declaration>
+			
+			
+			<Anchor>//api/name/dateWithICalendarISO8601:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(CGICalendar)/descriptionICalendar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)descriptionICalendar</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionICalendar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(CGICalendar)/descriptionISO8601</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)descriptionISO8601</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionISO8601</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

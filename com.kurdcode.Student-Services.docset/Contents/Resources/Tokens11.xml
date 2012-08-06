@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CGICalendar.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CGICalendar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendar/setObjects:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>@property (retain) NSMutableArray *objects</Declaration>
+			
+			
+			<Anchor>//api/name/objects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CGICalendar/objects</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>@property (retain) NSMutableArray *objects</Declaration>
+			
+			
+			<Anchor>//api/name/objects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CGICalendar/UUID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)UUID</Declaration>
+			
+			
+			<Anchor>//api/name/UUID</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendar/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendar/initWithString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithString:(NSString *)string</Declaration>
+			
+			
+			<Anchor>//api/name/initWithString:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendar/initWithPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithPath:(NSString *)path</Declaration>
+			
+			
+			<Anchor>//api/name/initWithPath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendar/parseWithString:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)parseWithString:(NSString *)string error:(NSError **)error</Declaration>
+			
+			
+			<Anchor>//api/name/parseWithString:error:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendar/parseWithPath:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)parseWithPath:(NSString *)path error:(NSError **)error</Declaration>
+			
+			
+			<Anchor>//api/name/parseWithPath:error:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendar/addObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>- (void)addObject:(CGICalendarObject *)object</Declaration>
+			
+			
+			<Anchor>//api/name/addObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendar/objectAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>- (CGICalendarObject *)objectAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/objectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendar/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CGICalendar/writeToFile:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CGICalendar.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)writeToFile:(NSString *)path</Declaration>
+			
+			
+			<Anchor>//api/name/writeToFile:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

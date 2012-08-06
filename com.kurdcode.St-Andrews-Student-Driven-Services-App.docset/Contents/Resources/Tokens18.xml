@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ModuleWebVC.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ModuleWebVC</TokenIdentifier>
+			<Abstract type="html">Module Web View Controller Class</Abstract>
+			<DeclaredIn>ModuleWebVC.h</DeclaredIn>
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ModuleWebVC/setAURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ModuleWebVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *AURL</Declaration>
+			
+			
+			<Anchor>//api/name/AURL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ModuleWebVC/AURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ModuleWebVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *AURL</Declaration>
+			
+			
+			<Anchor>//api/name/AURL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ModuleWebVC/setWebView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ModuleWebVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIWebView *webView</Declaration>
+			
+			
+			<Anchor>//api/name/webView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ModuleWebVC/webView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ModuleWebVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIWebView *webView</Declaration>
+			
+			
+			<Anchor>//api/name/webView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ModuleWebVC/setActivityIndicator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ModuleWebVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *ActivityIndicator</Declaration>
+			
+			
+			<Anchor>//api/name/ActivityIndicator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ModuleWebVC/ActivityIndicator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ModuleWebVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *ActivityIndicator</Declaration>
+			
+			
+			<Anchor>//api/name/ActivityIndicator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ModuleWebVC/setAlertProgress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ModuleWebVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) TKProgressAlertView *AlertProgress</Declaration>
+			
+			
+			<Anchor>//api/name/AlertProgress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ModuleWebVC/AlertProgress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ModuleWebVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) TKProgressAlertView *AlertProgress</Declaration>
+			
+			
+			<Anchor>//api/name/AlertProgress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ModuleWebVC/setModulesRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ModuleWebVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) RESTRequest *ModulesRequest</Declaration>
+			
+			
+			<Anchor>//api/name/ModulesRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ModuleWebVC/ModulesRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ModuleWebVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) RESTRequest *ModulesRequest</Declaration>
+			
+			
+			<Anchor>//api/name/ModulesRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ModuleWebVC/DoneBtnTapped:</TokenIdentifier>
+			<Abstract type="html">This method handles the dismissal of itself when done button is pressed</Abstract>
+			<DeclaredIn>ModuleWebVC.h</DeclaredIn>			
+			
+			<Declaration>- (IBAction)DoneBtnTapped:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/DoneBtnTapped:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

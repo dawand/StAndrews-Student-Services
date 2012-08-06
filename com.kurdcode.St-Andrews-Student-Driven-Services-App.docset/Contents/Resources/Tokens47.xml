@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/RSSLoaderDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/RSSLoaderDelegate</TokenIdentifier>
+			<Abstract type="html">RSS Loader Delegate</Abstract>
+			<DeclaredIn>RSSLoader.h</DeclaredIn>
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/RSSLoaderDelegate/updatedFeedWithRSS:</TokenIdentifier>
+			<Abstract type="html">This method will be called if the RSS parsing procedure is successful</Abstract>
+			<DeclaredIn>RSSLoader.h</DeclaredIn>			
+			
+			<Declaration>- (void)updatedFeedWithRSS:(NSArray *)items</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>an</Name>
+					<Abstract type="html">array of the parsed items to be pouplated into the view controllers</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updatedFeedWithRSS:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/RSSLoaderDelegate/failedFeedUpdateWithError:</TokenIdentifier>
+			<Abstract type="html">This method will be called if the RSS parsing failed
+@param NSError</Abstract>
+			<DeclaredIn>RSSLoader.h</DeclaredIn>			
+			
+			<Declaration>- (void)failedFeedUpdateWithError:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/failedFeedUpdateWithError:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/RSSLoaderDelegate/updatedFeedTitle:</TokenIdentifier>
+			<Abstract type="html">This method will be called to updated the title of the feed</Abstract>
+			<DeclaredIn>RSSLoader.h</DeclaredIn>			
+			
+			<Declaration>- (void)updatedFeedTitle:(NSString *)title</Declaration>
+			
+			
+			<Anchor>//api/name/updatedFeedTitle:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

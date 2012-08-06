@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TimetableTVC.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TimetableTVC</TokenIdentifier>
+			<Abstract type="html">Timetable Table View Controller</Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>
+			
+			<NodeRef refid="38"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setDataArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (retain, nonatomic) NSMutableArray *dataArray</Declaration>
+			
+			
+			<Anchor>//api/name/dataArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/dataArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (retain, nonatomic) NSMutableArray *dataArray</Declaration>
+			
+			
+			<Anchor>//api/name/dataArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setDataDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (retain, nonatomic) NSMutableDictionary *dataDictionary</Declaration>
+			
+			
+			<Anchor>//api/name/dataDictionary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/dataDictionary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (retain, nonatomic) NSMutableDictionary *dataDictionary</Declaration>
+			
+			
+			<Anchor>//api/name/dataDictionary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setDataSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (retain, nonatomic) NSMutableDictionary *dataSelected</Declaration>
+			
+			
+			<Anchor>//api/name/dataSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/dataSelected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (retain, nonatomic) NSMutableDictionary *dataSelected</Declaration>
+			
+			
+			<Anchor>//api/name/dataSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setTitleDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (retain, nonatomic) NSMutableDictionary *titleDictionary</Declaration>
+			
+			
+			<Anchor>//api/name/titleDictionary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/titleDictionary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (retain, nonatomic) NSMutableDictionary *titleDictionary</Declaration>
+			
+			
+			<Anchor>//api/name/titleDictionary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setStartDateData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *startDateData</Declaration>
+			
+			
+			<Anchor>//api/name/startDateData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/startDateData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *startDateData</Declaration>
+			
+			
+			<Anchor>//api/name/startDateData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setDateLabelStr:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *dateLabelStr</Declaration>
+			
+			
+			<Anchor>//api/name/dateLabelStr</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/dateLabelStr</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *dateLabelStr</Declaration>
+			
+			
+			<Anchor>//api/name/dateLabelStr</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setPassword:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/password</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setUsername:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/username</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setSelectedDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *selectedDate</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/selectedDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *selectedDate</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setModulesRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) RESTRequest *ModulesRequest</Declaration>
+			
+			
+			<Anchor>//api/name/ModulesRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/ModulesRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) RESTRequest *ModulesRequest</Declaration>
+			
+			
+			<Anchor>//api/name/ModulesRequest</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setAlertProgress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) TKProgressAlertView *AlertProgress</Declaration>
+			
+			
+			<Anchor>//api/name/AlertProgress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/AlertProgress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) TKProgressAlertView *AlertProgress</Declaration>
+			
+			
+			<Anchor>//api/name/AlertProgress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setCachedItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *cachedItems</Declaration>
+			
+			
+			<Anchor>//api/name/cachedItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/cachedItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *cachedItems</Declaration>
+			
+			
+			<Anchor>//api/name/cachedItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setDateLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIBarButtonItem *dateLabel</Declaration>
+			
+			
+			<Anchor>//api/name/dateLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/dateLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIBarButtonItem *dateLabel</Declaration>
+			
+			
+			<Anchor>//api/name/dateLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/setSegmentedControlOutlet:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISegmentedControl *SegmentedControlOutlet</Declaration>
+			
+			
+			<Anchor>//api/name/SegmentedControlOutlet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableTVC/SegmentedControlOutlet</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISegmentedControl *SegmentedControlOutlet</Declaration>
+			
+			
+			<Anchor>//api/name/SegmentedControlOutlet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/fetchFromServer</TokenIdentifier>
+			<Abstract type="html">This method performs the retrieval of the timetable modules by calling the methods in the iCalendarEngine protocol</Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>- (void)fetchFromServer</Declaration>
+			
+			
+			<Anchor>//api/name/fetchFromServer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/generateDataForStartDate:endDate:</TokenIdentifier>
+			<Abstract type="html">This method generates a list of dates which contain modules so they will be marked as a dot on the timetable</Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>- (void)generateDataForStartDate:(NSDate *)start endDate:(NSDate *)end</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>endDate</Name>
+					<Abstract type="html">of the current view of the timetable</Abstract>
+				</Parameter><Parameter>
+					<Name>startDate</Name>
+					<Abstract type="html">of the current view of the timetable</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/generateDataForStartDate:endDate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/SegmentedControlTapped:</TokenIdentifier>
+			<Abstract type="html">This method handles the changes when the segment control is tapped (Month view, List view) segments</Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>- (IBAction)SegmentedControlTapped:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/SegmentedControlTapped:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableTVC/RefreshBtnTapped:</TokenIdentifier>
+			<Abstract type="html">This method performs the retrieval of timetable modules from the server again by calling the fetchFromServer method when Refresh button is pressed</Abstract>
+			<DeclaredIn>TimetableTVC.h</DeclaredIn>			
+			
+			<Declaration>- (IBAction)RefreshBtnTapped:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/RefreshBtnTapped:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

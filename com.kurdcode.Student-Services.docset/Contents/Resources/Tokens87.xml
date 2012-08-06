@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/modules.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/modules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>
+			
+			<NodeRef refid="87"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/modules/setModule_id:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *module_id</Declaration>
+			
+			
+			<Anchor>//api/name/module_id</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/modules/module_id</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *module_id</Declaration>
+			
+			
+			<Anchor>//api/name/module_id</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/modules/setAyr_code:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *ayr_code</Declaration>
+			
+			
+			<Anchor>//api/name/ayr_code</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/modules/ayr_code</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *ayr_code</Declaration>
+			
+			
+			<Anchor>//api/name/ayr_code</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/modules/setSemester:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *semester</Declaration>
+			
+			
+			<Anchor>//api/name/semester</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/modules/semester</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *semester</Declaration>
+			
+			
+			<Anchor>//api/name/semester</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/modules/setModule_code:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *module_code</Declaration>
+			
+			
+			<Anchor>//api/name/module_code</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/modules/module_code</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *module_code</Declaration>
+			
+			
+			<Anchor>//api/name/module_code</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/modules/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/modules/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/modules/setCourseworkArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *courseworkArray</Declaration>
+			
+			
+			<Anchor>//api/name/courseworkArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/modules/courseworkArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>modules.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *courseworkArray</Declaration>
+			
+			
+			<Anchor>//api/name/courseworkArray</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

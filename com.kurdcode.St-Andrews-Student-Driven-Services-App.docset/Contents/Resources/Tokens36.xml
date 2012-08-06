@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TimetableModule.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TimetableModule</TokenIdentifier>
+			<Abstract type="html">This class is a Timetable module model which holds all the properties for a module object (VEVENT)</Abstract>
+			<DeclaredIn>TimetableModule.h</DeclaredIn>
+			
+			<NodeRef refid="36"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModule/setModuleCode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *ModuleCode</Declaration>
+			
+			
+			<Anchor>//api/name/ModuleCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModule/ModuleCode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *ModuleCode</Declaration>
+			
+			
+			<Anchor>//api/name/ModuleCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModule/setModuleTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *ModuleTitle</Declaration>
+			
+			
+			<Anchor>//api/name/ModuleTitle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModule/ModuleTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *ModuleTitle</Declaration>
+			
+			
+			<Anchor>//api/name/ModuleTitle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModule/setStartDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *StartDate</Declaration>
+			
+			
+			<Anchor>//api/name/StartDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModule/StartDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *StartDate</Declaration>
+			
+			
+			<Anchor>//api/name/StartDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModule/setEndDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *EndDate</Declaration>
+			
+			
+			<Anchor>//api/name/EndDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModule/EndDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDate *EndDate</Declaration>
+			
+			
+			<Anchor>//api/name/EndDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TimetableModule/setLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *Location</Declaration>
+			
+			
+			<Anchor>//api/name/Location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TimetableModule/Location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TimetableModule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *Location</Declaration>
+			
+			
+			<Anchor>//api/name/Location</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

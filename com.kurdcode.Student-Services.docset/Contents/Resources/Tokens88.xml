@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/secondTimetableVC.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/secondTimetableVC</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>secondTimetableVC.h</DeclaredIn>
+			
+			<NodeRef refid="88"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/secondTimetableVC/setObjects:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>secondTimetableVC.h</DeclaredIn>			
+			
+			<Declaration>@property (retain) NSMutableArray *objects</Declaration>
+			
+			
+			<Anchor>//api/name/objects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/secondTimetableVC/objects</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>secondTimetableVC.h</DeclaredIn>			
+			
+			<Declaration>@property (retain) NSMutableArray *objects</Declaration>
+			
+			
+			<Anchor>//api/name/objects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/secondTimetableVC/setCalendar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>secondTimetableVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) TKCalendarMonthView *calendar</Declaration>
+			
+			
+			<Anchor>//api/name/calendar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/secondTimetableVC/calendar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>secondTimetableVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) TKCalendarMonthView *calendar</Declaration>
+			
+			
+			<Anchor>//api/name/calendar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/secondTimetableVC/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>secondTimetableVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/secondTimetableVC/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>secondTimetableVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

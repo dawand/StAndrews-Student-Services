@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/grades.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/grades</TokenIdentifier>
+			<Abstract type="html">This class is grades model which holds all the properties for a grades object</Abstract>
+			<DeclaredIn>grades.h</DeclaredIn>
+			
+			<NodeRef refid="42"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/grades/setModule:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>grades.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *module</Declaration>
+			
+			
+			<Anchor>//api/name/module</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/grades/module</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>grades.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *module</Declaration>
+			
+			
+			<Anchor>//api/name/module</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/grades/setGrade:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>grades.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *grade</Declaration>
+			
+			
+			<Anchor>//api/name/grade</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/grades/grade</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>grades.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *grade</Declaration>
+			
+			
+			<Anchor>//api/name/grade</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/grades/setAssignment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>grades.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *assignment</Declaration>
+			
+			
+			<Anchor>//api/name/assignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/grades/assignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>grades.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *assignment</Declaration>
+			
+			
+			<Anchor>//api/name/assignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/grades/setWeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>grades.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *weight</Declaration>
+			
+			
+			<Anchor>//api/name/weight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/grades/weight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>grades.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *weight</Declaration>
+			
+			
+			<Anchor>//api/name/weight</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

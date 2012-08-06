@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>St Andrews Student Driven Services App</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>AllGradesTVC</Name>
+			<Path>Classes/AllGradesTVC.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>AssignmentDetailsVC</Name>
+			<Path>Classes/AssignmentDetailsVC.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>AssignmentsTVC</Name>
+			<Path>Classes/AssignmentsTVC.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>CustomCellBackgroundView</Name>
+			<Path>Classes/CustomCellBackgroundView.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>GradesVC</Name>
+			<Path>Classes/GradesVC.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>ModuleWebVC</Name>
+			<Path>Classes/ModuleWebVC.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>ModulesTVC</Name>
+			<Path>Classes/ModulesTVC.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>OverallGradeTVC</Name>
+			<Path>Classes/OverallGradeTVC.html</Path>
+		</Node>
+		
+		
+		
+	</Library>
+</DocSetNodes>

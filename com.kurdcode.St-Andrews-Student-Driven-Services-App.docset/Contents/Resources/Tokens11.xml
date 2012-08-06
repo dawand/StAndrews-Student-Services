@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/LibraryRSSLoaderTVC.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/LibraryRSSLoaderTVC</TokenIdentifier>
+			<Abstract type="html">This class loads the library news parsed from RSSLoader engine</Abstract>
+			<DeclaredIn>LibraryRSSLoaderTVC.h</DeclaredIn>
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LibraryRSSLoaderTVC/getTextCellWithTableView:atIndexPath:</TokenIdentifier>
+			<Abstract type="html">* @name A cell of each table view</Abstract>
+			<DeclaredIn>LibraryRSSLoaderTVC.h</DeclaredIn>			
+			
+			<Declaration>- (UITableViewCell *)getTextCellWithTableView:(UITableView *)tableView atIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>the</Name>
+					<Abstract type="html">index path of the cell in the table</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the configured cell</Abstract></ReturnValue>
+			<Anchor>//api/name/getTextCellWithTableView:atIndexPath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LibraryRSSLoaderTVC/setCachedNews:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LibraryRSSLoaderTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *cachedNews</Declaration>
+			
+			
+			<Anchor>//api/name/cachedNews</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LibraryRSSLoaderTVC/cachedNews</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LibraryRSSLoaderTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *cachedNews</Declaration>
+			
+			
+			<Anchor>//api/name/cachedNews</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LibraryRSSLoaderTVC/setAlertProgress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LibraryRSSLoaderTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) TKProgressAlertView *AlertProgress</Declaration>
+			
+			
+			<Anchor>//api/name/AlertProgress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/LibraryRSSLoaderTVC/AlertProgress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LibraryRSSLoaderTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) TKProgressAlertView *AlertProgress</Declaration>
+			
+			
+			<Anchor>//api/name/AlertProgress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LibraryRSSLoaderTVC/RefreshBtnTapped:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>LibraryRSSLoaderTVC.h</DeclaredIn>			
+			
+			<Declaration>- (IBAction)RefreshBtnTapped:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/RefreshBtnTapped:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/LibraryRSSLoaderTVC/populateData</TokenIdentifier>
+			<Abstract type="html">  To populate the library news items on the table view</Abstract>
+			<DeclaredIn>LibraryRSSLoaderTVC.h</DeclaredIn>			
+			
+			<Declaration>- (void)populateData</Declaration>
+			
+			
+			<Anchor>//api/name/populateData</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

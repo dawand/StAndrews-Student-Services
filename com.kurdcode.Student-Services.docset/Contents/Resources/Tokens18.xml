@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GDataXMLDocument.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GDataXMLDocument</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>gDataXMLNode.h</DeclaredIn>
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GDataXMLDocument/initWithXMLString:options:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>gDataXMLNode.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithXMLString:(NSString *)str options:(unsigned int)mask error:(NSError **)error</Declaration>
+			
+			
+			<Anchor>//api/name/initWithXMLString:options:error:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GDataXMLDocument/initWithData:options:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>gDataXMLNode.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithData:(NSData *)data options:(unsigned int)mask error:(NSError **)error</Declaration>
+			
+			
+			<Anchor>//api/name/initWithData:options:error:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GDataXMLDocument/initWithRootElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>gDataXMLNode.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithRootElement:(GDataXMLElement *)element</Declaration>
+			
+			
+			<Anchor>//api/name/initWithRootElement:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GDataXMLDocument/rootElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>gDataXMLNode.h</DeclaredIn>			
+			
+			<Declaration>- (GDataXMLElement *)rootElement</Declaration>
+			
+			
+			<Anchor>//api/name/rootElement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GDataXMLDocument/XMLData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>gDataXMLNode.h</DeclaredIn>			
+			
+			<Declaration>- (NSData *)XMLData</Declaration>
+			
+			
+			<Anchor>//api/name/XMLData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GDataXMLDocument/setVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>gDataXMLNode.h</DeclaredIn>			
+			
+			<Declaration>- (void)setVersion:(NSString *)version</Declaration>
+			
+			
+			<Anchor>//api/name/setVersion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GDataXMLDocument/setCharacterEncoding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>gDataXMLNode.h</DeclaredIn>			
+			
+			<Declaration>- (void)setCharacterEncoding:(NSString *)encoding</Declaration>
+			
+			
+			<Anchor>//api/name/setCharacterEncoding:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GDataXMLDocument/nodesForXPath:namespaces:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>gDataXMLNode.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)nodesForXPath:(NSString *)xpath namespaces:(NSDictionary *)namespaces error:(NSError **)error</Declaration>
+			
+			
+			<Anchor>//api/name/nodesForXPath:namespaces:error:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GDataXMLDocument/nodesForXPath:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>gDataXMLNode.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)nodesForXPath:(NSString *)xpath error:(NSError **)error</Declaration>
+			
+			
+			<Anchor>//api/name/nodesForXPath:error:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GDataXMLDocument/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>gDataXMLNode.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

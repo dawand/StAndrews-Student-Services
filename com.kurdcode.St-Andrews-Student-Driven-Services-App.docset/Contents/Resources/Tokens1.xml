@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AllGradesTVC.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AllGradesTVC</TokenIdentifier>
+			<Abstract type="html">Table view controller of all grades</Abstract>
+			<DeclaredIn>AllGradesTVC.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AllGradesTVC/setCachedModules:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AllGradesTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *cachedModules</Declaration>
+			
+			
+			<Anchor>//api/name/cachedModules</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AllGradesTVC/cachedModules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AllGradesTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *cachedModules</Declaration>
+			
+			
+			<Anchor>//api/name/cachedModules</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AllGradesTVC/setModulesArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AllGradesTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *modulesArray</Declaration>
+			
+			
+			<Anchor>//api/name/modulesArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AllGradesTVC/modulesArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AllGradesTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *modulesArray</Declaration>
+			
+			
+			<Anchor>//api/name/modulesArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AllGradesTVC/setGradesArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AllGradesTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *gradesArray</Declaration>
+			
+			
+			<Anchor>//api/name/gradesArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AllGradesTVC/gradesArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AllGradesTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *gradesArray</Declaration>
+			
+			
+			<Anchor>//api/name/gradesArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AllGradesTVC/setGradesAndModules:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AllGradesTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *gradesAndModules</Declaration>
+			
+			
+			<Anchor>//api/name/gradesAndModules</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AllGradesTVC/gradesAndModules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AllGradesTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *gradesAndModules</Declaration>
+			
+			
+			<Anchor>//api/name/gradesAndModules</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AllGradesTVC/setSortedArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AllGradesTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *sortedArray</Declaration>
+			
+			
+			<Anchor>//api/name/sortedArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AllGradesTVC/sortedArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AllGradesTVC.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *sortedArray</Declaration>
+			
+			
+			<Anchor>//api/name/sortedArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AllGradesTVC/SortTapped:</TokenIdentifier>
+			<Abstract type="html">This method handles sorting the list of grades in a descending order</Abstract>
+			<DeclaredIn>AllGradesTVC.h</DeclaredIn>			
+			
+			<Declaration>- (IBAction)SortTapped:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/SortTapped:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
