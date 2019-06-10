@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B8CA0AC22AEBF17000BF098 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8CA0AA22AEBF17000BF098 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8B8CA0B022AEC1BA000BF098 /* iPhoneIcon_Medium.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8CA0AD22AEC1B9000BF098 /* iPhoneIcon_Medium.png */; };
 		8B8CA0B122AEC1BA000BF098 /* iPhoneIcon_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8CA0AE22AEC1B9000BF098 /* iPhoneIcon_Small.png */; };
 		8B8CA0B222AEC1BA000BF098 /* iPhoneIcon_Large.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8CA0AF22AEC1B9000BF098 /* iPhoneIcon_Large.png */; };
+		8B8CA0B822AEC9A7000BF098 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8CA0B622AEC9A7000BF098 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E51FF744158E050E0058EA3F /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E51FF743158E050E0058EA3F /* LoginVC.m */; };
 		E54612A615C322AD00B39151 /* LibraryNewsCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E54611AA15C3206D00B39151 /* LibraryNewsCache.m */; };
 		E54612A715C322AD00B39151 /* ModulesCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E54611AC15C3206D00B39151 /* ModulesCache.m */; };
@@ -176,11 +176,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B8CA0AA22AEBF17000BF098 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
-		8B8CA0AB22AEBF17000BF098 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		8B8CA0AD22AEC1B9000BF098 /* iPhoneIcon_Medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Medium.png; sourceTree = SOURCE_ROOT; };
 		8B8CA0AE22AEC1B9000BF098 /* iPhoneIcon_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Small.png; sourceTree = SOURCE_ROOT; };
 		8B8CA0AF22AEC1B9000BF098 /* iPhoneIcon_Large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Large.png; sourceTree = SOURCE_ROOT; };
+		8B8CA0B622AEC9A7000BF098 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = Externals/JSONKit/JSONKit.m; sourceTree = "<group>"; };
+		8B8CA0B722AEC9A7000BF098 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = Externals/JSONKit/JSONKit.h; sourceTree = "<group>"; };
+		8B8CA0B922AECA1E000BF098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E51FF742158E050E0058EA3F /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
 		E51FF743158E050E0058EA3F /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		E54611A915C3206D00B39151 /* LibraryNewsCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LibraryNewsCache.h; path = Caching/LibraryNewsCache.h; sourceTree = "<group>"; };
@@ -449,7 +450,6 @@
 		E5B11DBB158D3C6A00F87B1C /* Modules-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Modules-Prefix.pch"; sourceTree = "<group>"; };
 		E5B11DBC158D3C6A00F87B1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Modules/AppDelegate.h; sourceTree = "<group>"; };
 		E5B11DBD158D3C6A00F87B1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Modules/AppDelegate.m; sourceTree = "<group>"; };
-		E5B11DC0158D3C6A00F87B1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E5C420D715977B01000E3D81 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		E5C420D915977B0C000E3D81 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		E5C420DB15977B13000E3D81 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -687,8 +687,8 @@
 		E5C420B215977A1D000E3D81 /* JSONKit */ = {
 			isa = PBXGroup;
 			children = (
-				8B8CA0AB22AEBF17000BF098 /* JSONKit.h */,
-				8B8CA0AA22AEBF17000BF098 /* JSONKit.m */,
+				8B8CA0B722AEC9A7000BF098 /* JSONKit.h */,
+				8B8CA0B622AEC9A7000BF098 /* JSONKit.m */,
 			);
 			name = JSONKit;
 			sourceTree = "<group>";
@@ -988,7 +988,7 @@
 		E5B11D9E158D3C6A00F87B1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "University of St Andrews";
 				TargetAttributes = {
 					E5B11DA6158D3C6A00F87B1C = {
@@ -998,11 +998,11 @@
 			};
 			buildConfigurationList = E5B11DA1158D3C6A00F87B1C /* Build configuration list for PBXProject "standrewstudent" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = E5B11D9C158D3C6A00F87B1C;
 			productRefGroup = E5B11DA8158D3C6A00F87B1C /* Products */;
@@ -1125,6 +1125,7 @@
 				E54612DD15C322AD00B39151 /* CGICalendar.m in Sources */,
 				E54612DE15C322AD00B39151 /* CGICalendarComponent.m in Sources */,
 				E54612DF15C322AD00B39151 /* CGICalendarContentLine.m in Sources */,
+				8B8CA0B822AEC9A7000BF098 /* JSONKit.m in Sources */,
 				E54612E015C322AD00B39151 /* CGICalendarObject.m in Sources */,
 				E54612E115C322AD00B39151 /* CGICalendarParameter.m in Sources */,
 				E54612E215C322AD00B39151 /* CGICalendarProperty.m in Sources */,
@@ -1181,7 +1182,6 @@
 				E546131815C59EE500B39151 /* TimetableListTVC.m in Sources */,
 				E546131E15C5EC1200B39151 /* TimetableListiPadTVC.m in Sources */,
 				E56B314C15C877A700F19D97 /* TDBadgedCell.m in Sources */,
-				8B8CA0AC22AEBF17000BF098 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1199,7 +1199,7 @@
 		E5B11DBF158D3C6A00F87B1C /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E5B11DC0158D3C6A00F87B1C /* en */,
+				8B8CA0B922AECA1E000BF098 /* Base */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -1211,12 +1211,32 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1224,11 +1244,16 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = three20/Build/Products/three20;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -1241,14 +1266,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = three20/Build/Products/three20;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1265,7 +1313,6 @@
 		E5B11DCE158D3C6A00F87B1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				DEVELOPMENT_TEAM = 2R8KNQM8C5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Modules/Modules-Prefix.pch";
@@ -1278,6 +1325,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurdcode.Modules;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -1287,7 +1335,6 @@
 		E5B11DCF158D3C6A00F87B1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 2R8KNQM8C5;
@@ -1302,6 +1349,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurdcode.Modules;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
