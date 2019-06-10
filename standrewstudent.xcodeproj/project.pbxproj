@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B8CA0AC22AEBF17000BF098 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8CA0AA22AEBF17000BF098 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E51FF744158E050E0058EA3F /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E51FF743158E050E0058EA3F /* LoginVC.m */; };
 		E54612A615C322AD00B39151 /* LibraryNewsCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E54611AA15C3206D00B39151 /* LibraryNewsCache.m */; };
 		E54612A715C322AD00B39151 /* ModulesCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E54611AC15C3206D00B39151 /* ModulesCache.m */; };
@@ -72,7 +73,6 @@
 		E54612E315C322AD00B39151 /* CGICalendarValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E546122615C320F100B39151 /* CGICalendarValue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E54612E415C322AD00B39151 /* gDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E546122815C3210700B39151 /* gDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E54612E515C322AD00B39151 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E546122A15C3211900B39151 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E54612E615C322AD00B39151 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E546122C15C3212A00B39151 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E54612E715C322AD00B39151 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = E546122F15C3213900B39151 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E54612E815C322AD00B39151 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = E546123115C3213900B39151 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E54612E915C322AD00B39151 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E546123315C3213900B39151 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -148,13 +148,6 @@
 		E56B314715C85EC300F19D97 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E56B312515C85EC300F19D97 /* greenButton.png */; };
 		E56B314915C861CA00F19D97 /* TapkuLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E56B314815C861C900F19D97 /* TapkuLibrary.bundle */; };
 		E56B314C15C877A700F19D97 /* TDBadgedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E56B314B15C877A700F19D97 /* TDBadgedCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E56B315A15C8AC1000F19D97 /* iPhoneIcon_Small-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E56B315915C8AC1000F19D97 /* iPhoneIcon_Small-7.png */; };
-		E56B315C15C8AC1900F19D97 /* iPhoneIcon_Big-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E56B315B15C8AC1900F19D97 /* iPhoneIcon_Big-7.png */; };
-		E56B315E15C8AC2900F19D97 /* iPhoneIcon_Medium-4.png in Resources */ = {isa = PBXBuildFile; fileRef = E56B315D15C8AC2800F19D97 /* iPhoneIcon_Medium-4.png */; };
-		E56B316015C8AC2E00F19D97 /* iPhoneIcon_Big-7 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = E56B315F15C8AC2E00F19D97 /* iPhoneIcon_Big-7 copy.png */; };
-		E56B316515C971F600F19D97 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E56B316115C971F400F19D97 /* libTestFlight.a */; };
-		E56B316615C971F700F19D97 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = E56B316215C971F500F19D97 /* README.txt */; };
-		E56B316715C971F700F19D97 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = E56B316315C971F600F19D97 /* release_notes.txt */; };
 		E56B317115CAEA1000F19D97 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56B317015CAEA0E00F19D97 /* MapKit.framework */; };
 		E5B11DAC158D3C6A00F87B1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B11DAB158D3C6A00F87B1C /* UIKit.framework */; };
 		E5B11DAE158D3C6A00F87B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B11DAD158D3C6A00F87B1C /* Foundation.framework */; };
@@ -180,6 +173,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B8CA0AA22AEBF17000BF098 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		8B8CA0AB22AEBF17000BF098 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		E51FF742158E050E0058EA3F /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
 		E51FF743158E050E0058EA3F /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		E54611A915C3206D00B39151 /* LibraryNewsCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LibraryNewsCache.h; path = Caching/LibraryNewsCache.h; sourceTree = "<group>"; };
@@ -312,8 +307,6 @@
 		E546122815C3210700B39151 /* gDataXMLNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gDataXMLNode.m; path = "Externals/Google XML Parser/gDataXMLNode.m"; sourceTree = "<group>"; };
 		E546122915C3211900B39151 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Externals/Reachability/Reachability.h; sourceTree = "<group>"; };
 		E546122A15C3211900B39151 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Externals/Reachability/Reachability.m; sourceTree = "<group>"; };
-		E546122B15C3212A00B39151 /* JSONKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = Externals/JSON/JSONKit.h; sourceTree = "<group>"; };
-		E546122C15C3212A00B39151 /* JSONKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = Externals/JSON/JSONKit.m; sourceTree = "<group>"; };
 		E546122D15C3213900B39151 /* ASICacheDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = Externals/ASI/ASICacheDelegate.h; sourceTree = "<group>"; };
 		E546122E15C3213900B39151 /* ASIDataCompressor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ASIDataCompressor.h; path = Externals/ASI/ASIDataCompressor.h; sourceTree = "<group>"; };
 		E546122F15C3213900B39151 /* ASIDataCompressor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ASIDataCompressor.m; path = Externals/ASI/ASIDataCompressor.m; sourceTree = "<group>"; };
@@ -438,16 +431,7 @@
 		E56B314815C861C900F19D97 /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TapkuLibrary.bundle; path = "../Externals/Tapku Library/TapkuLibrary.bundle"; sourceTree = "<group>"; };
 		E56B314A15C877A600F19D97 /* TDBadgedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDBadgedCell.h; path = Modules/TDBadgedCell.h; sourceTree = "<group>"; };
 		E56B314B15C877A700F19D97 /* TDBadgedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDBadgedCell.m; path = Modules/TDBadgedCell.m; sourceTree = "<group>"; };
-		E56B315915C8AC1000F19D97 /* iPhoneIcon_Small-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhoneIcon_Small-7.png"; path = "../iPhoneIcon_Small-7.png"; sourceTree = "<group>"; };
-		E56B315B15C8AC1900F19D97 /* iPhoneIcon_Big-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhoneIcon_Big-7.png"; path = "../iPhoneIcon_Big-7.png"; sourceTree = "<group>"; };
-		E56B315D15C8AC2800F19D97 /* iPhoneIcon_Medium-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhoneIcon_Medium-4.png"; path = "../iPhoneIcon_Medium-4.png"; sourceTree = "<group>"; };
-		E56B315F15C8AC2E00F19D97 /* iPhoneIcon_Big-7 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhoneIcon_Big-7 copy.png"; path = "../iPhoneIcon_Big-7 copy.png"; sourceTree = "<group>"; };
-		E56B316115C971F400F19D97 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		E56B316215C971F500F19D97 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		E56B316315C971F600F19D97 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
-		E56B316415C971F600F19D97 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		E56B317015CAEA0E00F19D97 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		E5AA0C2716B6CAF3004E7096 /* Modules copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Modules copy-Info.plist"; path = "/Users/dwnjls/Developer/Modules/Modules copy-Info.plist"; sourceTree = "<absolute>"; };
 		E5B11DA7158D3C6A00F87B1C /* Modules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B11DAB158D3C6A00F87B1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E5B11DAD158D3C6A00F87B1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -496,7 +480,6 @@
 				E5B11DAE158D3C6A00F87B1C /* Foundation.framework in Frameworks */,
 				E5B11DB0158D3C6A00F87B1C /* CoreGraphics.framework in Frameworks */,
 				E5B11DB2158D3C6A00F87B1C /* CoreData.framework in Frameworks */,
-				E56B316515C971F600F19D97 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,17 +505,6 @@
 				E546122615C320F100B39151 /* CGICalendarValue.m */,
 			);
 			name = iCalObjC;
-			sourceTree = "<group>";
-		};
-		E56B316815C9EFC300F19D97 /* TestFlight */ = {
-			isa = PBXGroup;
-			children = (
-				E56B316115C971F400F19D97 /* libTestFlight.a */,
-				E56B316215C971F500F19D97 /* README.txt */,
-				E56B316315C971F600F19D97 /* release_notes.txt */,
-				E56B316415C971F600F19D97 /* TestFlight.h */,
-			);
-			name = TestFlight;
 			sourceTree = "<group>";
 		};
 		E56B316915C9F01100F19D97 /* View Customizations */ = {
@@ -589,7 +561,6 @@
 				E5B11DA8158D3C6A00F87B1C /* Products */,
 				E5B11DAA158D3C6A00F87B1C /* Frameworks */,
 				E5B11DB4158D3C6A00F87B1C /* Supporting Files */,
-				E5AA0C2716B6CAF3004E7096 /* Modules copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -640,10 +611,6 @@
 				E56B310415C85EC200F19D97 /* Background.png */,
 				E5C881F615AA322C0094C9BE /* libz.dylib */,
 				E5C4212115992ED9000E3D81 /* libxml2.dylib */,
-				E56B315F15C8AC2E00F19D97 /* iPhoneIcon_Big-7 copy.png */,
-				E56B315D15C8AC2800F19D97 /* iPhoneIcon_Medium-4.png */,
-				E56B315B15C8AC1900F19D97 /* iPhoneIcon_Big-7.png */,
-				E56B315915C8AC1000F19D97 /* iPhoneIcon_Small-7.png */,
 				E56B310515C85EC200F19D97 /* School.png */,
 				E56B310615C85EC300F19D97 /* School2X.png */,
 				E56B310715C85EC300F19D97 /* Library.png */,
@@ -711,8 +678,8 @@
 		E5C420B215977A1D000E3D81 /* JSONKit */ = {
 			isa = PBXGroup;
 			children = (
-				E546122B15C3212A00B39151 /* JSONKit.h */,
-				E546122C15C3212A00B39151 /* JSONKit.m */,
+				8B8CA0AB22AEBF17000BF098 /* JSONKit.h */,
+				8B8CA0AA22AEBF17000BF098 /* JSONKit.m */,
 			);
 			name = JSONKit;
 			sourceTree = "<group>";
@@ -779,7 +746,6 @@
 				E5CA2D1215B60A1B00C9E4A6 /* KeyChain */,
 				E5C420B615977A36000E3D81 /* Reachability */,
 				E5F16D1715A50FA6006A02DE /* Tapku Library */,
-				E56B316815C9EFC300F19D97 /* TestFlight */,
 				E56B316915C9F01100F19D97 /* View Customizations */,
 			);
 			name = EXTERNALS;
@@ -1078,12 +1044,6 @@
 				E56B314615C85EC300F19D97 /* 74-location.png in Resources */,
 				E56B314715C85EC300F19D97 /* greenButton.png in Resources */,
 				E56B314915C861CA00F19D97 /* TapkuLibrary.bundle in Resources */,
-				E56B315A15C8AC1000F19D97 /* iPhoneIcon_Small-7.png in Resources */,
-				E56B315C15C8AC1900F19D97 /* iPhoneIcon_Big-7.png in Resources */,
-				E56B315E15C8AC2900F19D97 /* iPhoneIcon_Medium-4.png in Resources */,
-				E56B316015C8AC2E00F19D97 /* iPhoneIcon_Big-7 copy.png in Resources */,
-				E56B316615C971F700F19D97 /* README.txt in Resources */,
-				E56B316715C971F700F19D97 /* release_notes.txt in Resources */,
 				E5E8463C171D62FD008FEB0C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1159,7 +1119,6 @@
 				E54612E315C322AD00B39151 /* CGICalendarValue.m in Sources */,
 				E54612E415C322AD00B39151 /* gDataXMLNode.m in Sources */,
 				E54612E515C322AD00B39151 /* Reachability.m in Sources */,
-				E54612E615C322AD00B39151 /* JSONKit.m in Sources */,
 				E54612E715C322AD00B39151 /* ASIDataCompressor.m in Sources */,
 				E54612E815C322AD00B39151 /* ASIDataDecompressor.m in Sources */,
 				E54612E915C322AD00B39151 /* ASIDownloadCache.m in Sources */,
@@ -1210,6 +1169,7 @@
 				E546131815C59EE500B39151 /* TimetableListTVC.m in Sources */,
 				E546131E15C5EC1200B39151 /* TimetableListiPadTVC.m in Sources */,
 				E56B314C15C877A700F19D97 /* TDBadgedCell.m in Sources */,
+				8B8CA0AC22AEBF17000BF098 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1239,7 +1199,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -1256,7 +1216,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = three20/Build/Products/three20;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -1269,7 +1229,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -1279,7 +1239,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = three20/Build/Products/three20;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1293,16 +1253,18 @@
 		E5B11DCE158D3C6A00F87B1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEVELOPMENT_TEAM = 2R8KNQM8C5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Modules/Modules-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Modules/Modules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1313,6 +1275,7 @@
 		E5B11DCF158D3C6A00F87B1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 2R8KNQM8C5;
@@ -1320,11 +1283,12 @@
 				GCC_PREFIX_HEADER = "Modules/Modules-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Modules/Modules-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

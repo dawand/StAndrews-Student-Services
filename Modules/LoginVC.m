@@ -127,7 +127,4 @@
     [self loginBtnTapped:nil];
 }
 
-- (IBAction)LaunchFeedback {
-        [TestFlight openFeedbackView];
-}
 @end
