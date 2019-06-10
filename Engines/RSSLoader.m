@@ -42,7 +42,7 @@
     else if([sourceChoice isEqualToString:@"university"]&& [segmentedControlChoice isEqualToString:@"News"]){
         xmlData = [[NSMutableData alloc] initWithContentsOfURL:[NSURL URLWithString: UniversityRSSUrlNews] ];
     }
-    else if([sourceChoice isEqualToString:@"university"]&& [segmentedControlChoice isEqualToString:@"Events"]) {
+    else if([sourceChoice isEqualToString:@"university"]&& [segmentedControlChoice isEqualToString:@"Jobs"]) {
         xmlData = [[NSMutableData alloc] initWithContentsOfURL:[NSURL URLWithString: UniversityRSSUrlEvents] ];
     }
     else if([sourceChoice isEqualToString:@"library"]) {

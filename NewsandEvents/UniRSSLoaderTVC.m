@@ -54,11 +54,11 @@
     AlertProgress = [[TKProgressAlertView alloc] initWithProgressTitle:@"Loading..."];
     [AlertProgress.progressBar setProgress:0.6];
     
-    cachedNews = [UniNewsCache getCachedItems];
-    cachedEvents = [UniEventsCache getCachedItems];
+//    cachedNews = [UniNewsCache getCachedItems];
+//    cachedEvents = [UniEventsCache getCachedItems];
+//
+//    if(cachedNews == nil || cachedEvents == nil){
     
-    if(cachedNews == nil || cachedEvents == nil){
-        
         [AlertProgress show];
         
         rss = [[RSSLoader alloc] init];
@@ -68,14 +68,14 @@
         if(rss.loaded==YES){
             [AlertProgress hide];
         }
-    }
-
-    else{
-        if([segmentedControlChoice isEqualToString:@"News"])
-            rssItems = cachedNews;
-        else
-            rssItems = cachedEvents;
-    }
+//    }
+//
+//    else{
+//        if([segmentedControlChoice isEqualToString:@"News"])
+//            rssItems = cachedNews;
+//        else
+//            rssItems = cachedEvents;
+//    }
 
     [self.tableView reloadData];
 }
@@ -210,8 +210,8 @@
     }
     else
     {
-        segmentedControlChoice = @"Events";
-        self.navigationItem.title = @"University Events";
+        segmentedControlChoice = @"Jobs";
+        self.navigationItem.title = @"University Vacancies";
     }
     
     [self populateData];

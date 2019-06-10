@@ -1009,7 +1009,7 @@ is Empty!</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EnP-Cs-zo3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4455.072463768116" y="550.44642857142856"/>
+            <point key="canvasLocation" x="2651" y="1418"/>
         </scene>
         <!--Module WebVC-->
         <scene sceneID="BXO-NO-9qG">
@@ -1139,7 +1139,7 @@ is Empty!</string>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
                                 <segment title="News"/>
-                                <segment title="Events"/>
+                                <segment title="Jobs"/>
                             </segments>
                             <color key="tintColor" red="0.0" green="0.0" blue="0.74501228332519531" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
@@ -1303,7 +1303,7 @@ is Empty!</string>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" barStyle="black" id="Doa-c3-HAp">
-                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1327,7 +1327,7 @@ is Empty!</string>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" barStyle="black" id="YHl-WA-Rc3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1341,7 +1341,7 @@ is Empty!</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sMm-bh-zvc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3849.275362318841" y="550.44642857142856"/>
+            <point key="canvasLocation" x="1791" y="1279"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cAv-4o-qoy">

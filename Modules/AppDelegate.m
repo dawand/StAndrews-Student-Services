@@ -16,7 +16,7 @@
      NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 
    // [defaults setBool:NO forKey:@"loggedin"];
-    [defaults setBool:NO forKey:@"guestlogin"];
+    [defaults setBool:YES forKey:@"guestlogin"];
         
     application.applicationIconBadgeNumber = 0;
     

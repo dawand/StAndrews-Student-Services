@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8B8CA0AC22AEBF17000BF098 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8CA0AA22AEBF17000BF098 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8B8CA0B022AEC1BA000BF098 /* iPhoneIcon_Medium.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8CA0AD22AEC1B9000BF098 /* iPhoneIcon_Medium.png */; };
+		8B8CA0B122AEC1BA000BF098 /* iPhoneIcon_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8CA0AE22AEC1B9000BF098 /* iPhoneIcon_Small.png */; };
+		8B8CA0B222AEC1BA000BF098 /* iPhoneIcon_Large.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8CA0AF22AEC1B9000BF098 /* iPhoneIcon_Large.png */; };
 		E51FF744158E050E0058EA3F /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E51FF743158E050E0058EA3F /* LoginVC.m */; };
 		E54612A615C322AD00B39151 /* LibraryNewsCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E54611AA15C3206D00B39151 /* LibraryNewsCache.m */; };
 		E54612A715C322AD00B39151 /* ModulesCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E54611AC15C3206D00B39151 /* ModulesCache.m */; };
@@ -175,6 +178,9 @@
 /* Begin PBXFileReference section */
 		8B8CA0AA22AEBF17000BF098 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		8B8CA0AB22AEBF17000BF098 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		8B8CA0AD22AEC1B9000BF098 /* iPhoneIcon_Medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Medium.png; sourceTree = SOURCE_ROOT; };
+		8B8CA0AE22AEC1B9000BF098 /* iPhoneIcon_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Small.png; sourceTree = SOURCE_ROOT; };
+		8B8CA0AF22AEC1B9000BF098 /* iPhoneIcon_Large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Large.png; sourceTree = SOURCE_ROOT; };
 		E51FF742158E050E0058EA3F /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
 		E51FF743158E050E0058EA3F /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		E54611A915C3206D00B39151 /* LibraryNewsCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LibraryNewsCache.h; path = Caching/LibraryNewsCache.h; sourceTree = "<group>"; };
@@ -608,6 +614,9 @@
 		E5B11DB4158D3C6A00F87B1C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B8CA0AF22AEC1B9000BF098 /* iPhoneIcon_Large.png */,
+				8B8CA0AD22AEC1B9000BF098 /* iPhoneIcon_Medium.png */,
+				8B8CA0AE22AEC1B9000BF098 /* iPhoneIcon_Small.png */,
 				E56B310415C85EC200F19D97 /* Background.png */,
 				E5C881F615AA322C0094C9BE /* libz.dylib */,
 				E5C4212115992ED9000E3D81 /* libxml2.dylib */,
@@ -1018,6 +1027,7 @@
 				E56B312715C85EC300F19D97 /* School.png in Resources */,
 				E56B312815C85EC300F19D97 /* School2X.png in Resources */,
 				E56B312915C85EC300F19D97 /* Library.png in Resources */,
+				8B8CA0B022AEC1BA000BF098 /* iPhoneIcon_Medium.png in Resources */,
 				E56B312A15C85EC300F19D97 /* Library2X.png in Resources */,
 				E56B312B15C85EC300F19D97 /* University.png in Resources */,
 				E56B312C15C85EC300F19D97 /* University2X.png in Resources */,
@@ -1031,10 +1041,12 @@
 				E56B313815C85EC300F19D97 /* iPadBG.png in Resources */,
 				E56B313915C85EC300F19D97 /* navigationbar.png in Resources */,
 				E56B313A15C85EC300F19D97 /* toolbar.png in Resources */,
+				8B8CA0B122AEC1BA000BF098 /* iPhoneIcon_Small.png in Resources */,
 				E56B313C15C85EC300F19D97 /* AnewBG.png in Resources */,
 				E56B313D15C85EC300F19D97 /* waiting.png in Resources */,
 				E56B313E15C85EC300F19D97 /* fail.png in Resources */,
 				E56B313F15C85EC300F19D97 /* notpass.png in Resources */,
+				8B8CA0B222AEC1BA000BF098 /* iPhoneIcon_Large.png in Resources */,
 				E56B314015C85EC300F19D97 /* pass.png in Resources */,
 				E56B314115C85EC300F19D97 /* distinction.png in Resources */,
 				E56B314215C85EC300F19D97 /* clock.png in Resources */,

@@ -11,8 +11,8 @@
 
 #define SchoolRSSUrlNews @"http://www.almasryalyoum.com/news_homepage_feed"
 #define SchoolRSSUrlEvents @"http://blogs.cs.st-andrews.ac.uk/csblog/category/event/feed/"
-#define UniversityRSSUrlNews @"http://www.st-andrews.ac.uk/rss/news/index.xml"
-#define UniversityRSSUrlEvents @"http://www.st-andrews.ac.uk/rss/events/index.xml"
+#define UniversityRSSUrlNews @"http://digitalcommunications.wp.st-andrews.ac.uk/feed/"
+#define UniversityRSSUrlEvents @"https://www.vacancies.st-andrews.ac.uk/VacanciesFeed.aspx"
 #define LibraryRSSUrlNews @"http://www.st-andrews.ac.uk/rss/library/index.xml"
 #define NewArrivalsBooks @"http://library.st-andrews.ac.uk/live/feeds/latestaccs.xml"
 #define NewArrivalsDVDs @"http://library.st-andrews.ac.uk/live/feeds/recdvds.xml"

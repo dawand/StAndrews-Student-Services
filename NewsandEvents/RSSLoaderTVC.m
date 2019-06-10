@@ -52,11 +52,11 @@
     AlertProgress = [[TKProgressAlertView alloc] initWithProgressTitle:@"Loading..."];
     [AlertProgress.progressBar setProgress:0.6];
     
-    cachedNews = [SchoolNewsCache getCachedItems];
-    cachedEvents = [SchoolEventsCache getCachedItems];
+//    cachedNews = [SchoolNewsCache getCachedItems];
+//    cachedEvents = [SchoolEventsCache getCachedItems];
+//
+//    if(cachedNews == nil || cachedEvents == nil){
     
-    if(cachedNews == nil || cachedEvents == nil){
-        
         [AlertProgress show];
         
         rss = [[RSSLoader alloc] init];
@@ -66,14 +66,14 @@
         if(rss.loaded==YES){
             [AlertProgress hide];
         }
-    }
-    
-    else{
-        if([segmentedControlChoice isEqualToString:@"News"])
-            rssItems = cachedNews;
-        else
-            rssItems = cachedEvents;
-    }
+//    }
+//
+//    else{
+//        if([segmentedControlChoice isEqualToString:@"News"])
+//            rssItems = cachedNews;
+//        else
+//            rssItems = cachedEvents;
+//    }
     
     [self.tableView reloadData];
 }
