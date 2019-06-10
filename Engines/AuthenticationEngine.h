@@ -35,9 +35,15 @@
  
  */
 @interface AuthenticationEngine : NSObject
-
+/**
+ An instance variable of type ID of the delegate
+ */
 @property (nonatomic, unsafe_unretained) id<AuthenticationEngineDelegate> delegate;
+/**
+ a network queue to hold the requests sent to the server
+ */
 @property (nonatomic, strong) ASINetworkQueue *networkQueue;
+
 /**
  @name initialize with Login name and password
  

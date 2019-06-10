@@ -142,11 +142,9 @@
     
     sortedArray = [[sortedArray reverseObjectEnumerator] allObjects];
     
-    
     [self.tableView reloadData];
     
     [super viewDidLoad];
-    
 }
 
 - (void)viewDidUnload

@@ -24,7 +24,6 @@
     }
         
     passwordTF.secureTextEntry=YES;
-    passwordTF.text =@"Razgyan86";
     
     [super viewDidLoad];
 }
@@ -64,6 +63,19 @@
 
 - (IBAction)loginBtnTapped:(id)sender {
     
+    if([passwordTF.text isEqualToString:@""]){
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Empty password!" message:@"password cannot be empty. Please enter your password" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles: nil];
+        
+        [alert show];
+    }
+    
+    else if([usernameTF.text isEqualToString:@""]){
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Empty username!" message:@"username cannot be empty. Please enter your username" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles: nil];
+        
+        [alert show];
+    }
+    
+    else{
     [passwordTF resignFirstResponder];
     
     [ActivityIndicator setHidden:NO];
@@ -72,6 +84,7 @@
     ApplicationDelegate.AuthEngine = [[AuthenticationEngine alloc] initWithLoginName:usernameTF.text password:passwordTF.text];
     ApplicationDelegate.AuthEngine.delegate = self;
     
+    }
 }
 
 -(void) loginSucceeded
@@ -87,9 +100,6 @@
 
     [keychainItem setObject: passwordTF.text forKey:(__bridge id)kSecValueData];
     [keychainItem setObject: usernameTF.text forKey:(__bridge id)kSecAttrAccount];
-
-  //  [ApplicationDelegate setUsername:usernameTF.text];
-  //  [ApplicationDelegate setPassword:passwordTF.text];
     
     [ActivityIndicator setHidden:YES];
 
@@ -100,11 +110,11 @@
 {
     [ActivityIndicator setHidden:YES];
     
-  //  TKAlertCenter *alert = [[TKAlertCenter alloc]init];
-  //  [alert postAlertWithMessage:[error localizedDescription]];
-    
-    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Authentication failed" message:@"Please check your username and password" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles: nil];
-    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[error localizedDescription]
+                                                    message:[error localizedRecoverySuggestion]
+                                                   delegate:self
+                                          cancelButtonTitle:NSLocalizedString(@"Dismiss", @"")
+                                          otherButtonTitles: nil];    
     [alert show];
 }
 

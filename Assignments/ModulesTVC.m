@@ -34,13 +34,11 @@
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
-{   
-   
+{
     KeychainItemWrapper *keychainItem = [[KeychainItemWrapper alloc] initWithIdentifier:@"MyPass" accessGroup:nil];
     
     password = [keychainItem objectForKey:(__bridge id) kSecValueData];
     username = [keychainItem objectForKey:(__bridge id)kSecAttrAccount];
-    
     
     FirstSemModules = [NSMutableArray new];
     SecondSemModules = [NSMutableArray new];
@@ -90,12 +88,17 @@
   //      [self.ModulesRequest cancel];
 }
 
--(void) loginFailedWithError:(NSError*) error
+- (void) loginFailedWithError:(NSError*) error
 {
     [AlertProgress hide];
     
-    TKAlertCenter *alert = [[TKAlertCenter alloc]init];
-    [alert postAlertWithMessage:[error localizedDescription]];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[error localizedDescription]
+                                                    message:[error localizedRecoverySuggestion]
+                                                   delegate:self
+                                          cancelButtonTitle:NSLocalizedString(@"Dismiss", @"")
+                                          otherButtonTitles: nil];
+    
+    [alert show];
 }
 
 
@@ -126,7 +129,7 @@
     
     CFGregorianDate currentDate = CFAbsoluteTimeGetGregorianDate(CFAbsoluteTimeGetCurrent(), CFTimeZoneCopySystem());
 
-    dateLabelStr = [NSString stringWithFormat:@"%02d/%02d/%02d %02d:%02d", currentDate.day, currentDate.month,currentDate.year, currentDate.hour, currentDate.minute];
+    dateLabelStr = [NSString stringWithFormat:@"%02d/%02d/%02ld %02d:%02d", currentDate.day, currentDate.month,currentDate.year, currentDate.hour, currentDate.minute];
 
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setObject:dateLabelStr forKey:@"dateModulesUpdated"];
@@ -173,7 +176,6 @@
     }
     
     [self.tableView reloadData];
-
 }
 
 -(void) viewDidAppear:(BOOL)animated{

@@ -61,7 +61,11 @@
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
 	UITouch *touch = [touches anyObject];
 	point = [touch locationInView:self];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"    
 	[target performSelector:action];
+#pragma clang diagnostic pop
+
 }
 - (void)dealloc {
 	target = nil;

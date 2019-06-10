@@ -4540,6 +4540,7 @@ static NSOperationQueue *sharedQueue = nil;
 @synthesize secondsToCache;
 @synthesize clientCertificates;
 @synthesize redirectURL;
+@synthesize userAgent;
 #if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_4_0
 @synthesize shouldContinueWhenAppEntersBackground;
 #endif

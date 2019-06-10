@@ -269,10 +269,7 @@ static inline NSString * TKKeyPathFromOperationState(TKOperationState state) {
 	
 	self.state = TKOperationStateFinished;
 	self.error = theError;
-	
 }
-
-
 
 #pragma mark - Delegate Methods for NSURLConnection
 - (void) connection:(NSURLConnection*)connection didFailWithError:(NSError*)e{

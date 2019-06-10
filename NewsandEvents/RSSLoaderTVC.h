@@ -31,6 +31,6 @@
 
 - (IBAction)SegChanged:(id)sender;
 - (IBAction)RefreshBtnTapped:(id)sender;
--(void) populateData;
+- (void) populateData;
 
 @end

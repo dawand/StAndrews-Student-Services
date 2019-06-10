@@ -161,18 +161,5 @@ static int kCacheMemoryLimit;
     return [NSKeyedUnarchiver unarchiveObjectWithData:[self dataForFile:FileName]];
 }
 
-+(BOOL) isItemsStale
-{
-    // if it is in memory cache, it is not stale
-    if([recentlyAccessedKeys containsObject:FileName])
-        return NO;
-    
-	NSString *archivePath = [[SchoolNewsCache cacheDirectory] stringByAppendingPathComponent:FileName];  
-    
-    NSTimeInterval stalenessLevel = [[[[NSFileManager defaultManager] attributesOfItemAtPath:archivePath error:nil] fileModificationDate] timeIntervalSinceNow];
-    
-    return stalenessLevel > kMenuStaleSeconds;
-}
-
 @end
 

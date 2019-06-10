@@ -41,7 +41,7 @@
 
 - (void)loginDone:(ASIHTTPRequest *)request
 {
-	NSDictionary *responseDict = [[request responseString] mutableObjectFromJSONString];	
+//	NSDictionary *responseDict = [[request responseString] mutableObjectFromJSONString];	
   //  self.accessToken = [responseDict objectForKey:@"accessToken"];	
 	if([self.delegate respondsToSelector:@selector(loginSucceeded)])
 		[self.delegate performSelector:@selector(loginSucceeded)]; 
@@ -67,12 +67,12 @@
 	
 	[self.networkQueue addOperation:request];
     
-  return request;
+    return request;
 }
 
 - (void)moduleFetchDone:(RESTRequest *)request
 {
-    NSMutableArray *responseArray = [[request responseString] mutableObjectFromJSONString];	
+   // NSMutableArray *responseArray = [[request responseString] mutableObjectFromJSONString];	
     NSMutableArray *menuItems = [NSMutableArray array];
 
     NSDictionary *mockResponseDictionary = [[request responseString] mutableObjectFromJSONString];

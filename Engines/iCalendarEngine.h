@@ -4,11 +4,10 @@
 #import "ASIHTTPRequest.h"
 #import "ASIFormDataRequest.h"
 #import "RESTRequest.h"
-#import "modules.h"
 #import "TimetableModule.h"
 #import "CGICalendar.h"
 
-#define TIMETABLE_BASE_URL @"https://moody2.st-andrews.ac.uk/samobile/"
+#define TIMETABLE_BASE_URL @"https://moody2.st-andrews.ac.uk/samobile"
 #define TIMETABLE_LOGIN_URL [NSString stringWithFormat:@"%@%@", TIMETABLE_BASE_URL, @"/timetable"]
 #define TIMETABLE_ITEMS_URL [NSString stringWithFormat:@"%@%@", TIMETABLE_BASE_URL, @"/timetable"]
 
@@ -33,7 +32,7 @@
 -(void) menuFetchSucceeded:(NSMutableArray*) menuItems;
 /**
  This method will be called if the fetching of timetable modules failed
- @param NSerror
+ @param NSError
  */
 -(void) menuFetchFailed:(NSError*) error;
 @end

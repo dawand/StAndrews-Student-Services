@@ -48,7 +48,6 @@
 
 - (void)loginDone:(ASIHTTPRequest *)request
 {
-	NSDictionary *responseDict = [[request responseString] mutableObjectFromJSONString];	
 	if([self.delegate respondsToSelector:@selector(loginSucceeded)])
 		[self.delegate performSelector:@selector(loginSucceeded)];
 }

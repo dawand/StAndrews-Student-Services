@@ -11,7 +11,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     //this is used for testflight reports
-    [TestFlight takeOff:@"2553aec807f4ec72477fba2b0d4f9c46_MTE1MzQzMjAxMi0wNy0zMSAyMDozMjoyNC41NjUxNjA"];
+//    [TestFlight takeOff:@"2553aec807f4ec72477fba2b0d4f9c46_MTE1MzQzMjAxMi0wNy0zMSAyMDozMjoyNC41NjUxNjA"];
     
      NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 
@@ -97,6 +97,9 @@
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
+    
+    application.applicationIconBadgeNumber = 0;
+    [[UIApplication sharedApplication] cancelAllLocalNotifications];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

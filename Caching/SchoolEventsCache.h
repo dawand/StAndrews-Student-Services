@@ -9,6 +9,5 @@
 
 +(void) cacheItems:(NSMutableArray*) Items;
 +(NSMutableArray*) getCachedItems;
-+(BOOL) isItemsStale;
 
 @end

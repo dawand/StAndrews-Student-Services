@@ -9,6 +9,7 @@
 #import "MainTVC.h"
 
 @implementation MainTVC
+
 @synthesize sectionsAndRowsText, ModulesRequest, sectionsAndRowsDetailsText;
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -123,6 +124,7 @@
 {
     
     NSString *contentForThisRow = [[[self sectionsAndRowsText] objectAtIndex:[indexPath section]] objectAtIndex:[indexPath row]];
+    
     NSString *detailsForThisRow = [[[self sectionsAndRowsDetailsText] objectAtIndex:[indexPath section]] objectAtIndex:[indexPath row]];
     
     static NSString *CellIdentifier = @"MainCell";
@@ -166,8 +168,8 @@
     
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
         
-        cell.textLabel.font = [UIFont fontWithName:@"Arial" size:32];
-        cell.detailTextLabel.font = [UIFont fontWithName:@"Arial" size:18];
+        cell.textLabel.font = [UIFont fontWithName:@"Arial" size:36];
+        cell.detailTextLabel.font = [UIFont fontWithName:@"Arial" size:22];
         cell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@2X.png",contentForThisRow]];
         
     }
@@ -257,7 +259,6 @@
         GradesVC *grades = [self.storyboard instantiateViewControllerWithIdentifier:@"GradesVC"];
         [self.navigationController pushViewController:grades animated:YES];
     }
-    
     
     // events and news
     else if(indexPath.section == 1 && indexPath.row == 0){

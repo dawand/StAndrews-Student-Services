@@ -9,15 +9,6 @@
 
 @synthesize data,startDateData,username,password,AlertProgress,cachedItems,dateLabel,dateLabelStr,sortedTimetableList;
 
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     KeychainItemWrapper *keychainItem = [[KeychainItemWrapper alloc] initWithIdentifier:@"MyPass" accessGroup:nil];
@@ -53,6 +44,8 @@
         return [first compare:second];
     }];
     
+    [self.tableView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Background.png"]]];
+
     self.tableView.dataSource = self;
     
     [self.tableView reloadData];
@@ -82,8 +75,13 @@
 {
     [AlertProgress hide];
     
-    TKAlertCenter *alert = [[TKAlertCenter alloc]init];
-    [alert postAlertWithMessage:[error localizedDescription]];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[error localizedDescription]
+                                                    message:[error localizedRecoverySuggestion]
+                                                   delegate:self
+                                          cancelButtonTitle:NSLocalizedString(@"Dismiss", @"")
+                                          otherButtonTitles: nil];
+    
+    [alert show];
 }
 
 -(void) viewDidAppear:(BOOL)animated{

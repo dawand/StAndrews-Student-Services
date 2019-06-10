@@ -558,10 +558,17 @@
 	if(portion == 1){
 		selectedDay = day;
 		selectedPortion = portion;
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
 		[target performSelector:action withObject:[NSArray arrayWithObject:[NSNumber numberWithInt:day]]];
+#pragma clang diagnostic pop
 		
 	}else if(down){
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
 		[target performSelector:action withObject:[NSArray arrayWithObjects:[NSNumber numberWithInt:day],[NSNumber numberWithInt:portion],nil]];
+#pragma clang diagnostic pop     
+
 		selectedDay = day;
 		selectedPortion = portion;
 	}

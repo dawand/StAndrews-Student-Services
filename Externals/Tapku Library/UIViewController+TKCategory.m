@@ -116,9 +116,18 @@
 		
 		
 		if(error){
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
 			if(eSelector) [self performSelector:NSSelectorFromString(eSelector) withObject:error];
+#pragma clang diagnostic pop
+
 		}else{
-			if(background) object = [self performSelector:NSSelectorFromString(background) withObject:object];
+			if(background) 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+                object = [self performSelector:NSSelectorFromString(background) withObject:object];
+#pragma clang diagnostic pop         
+
 			[self performSelectorOnMainThread:NSSelectorFromString(callback) withObject:object waitUntilDone:NO];
 		}
 		

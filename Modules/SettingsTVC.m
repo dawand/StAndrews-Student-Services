@@ -38,7 +38,7 @@
     
     NSArray *firstSection = [NSArray arrayWithObjects:@"User", @"Autofill Username", nil];
     
-    NSArray *secondSection = [NSArray arrayWithObjects:@"Notifications", nil];
+    NSArray *secondSection = [NSArray arrayWithObjects:@"Reminders", nil];
     
     NSArray *thirdSection = [NSArray arrayWithObjects:@"Logout",nil];
     

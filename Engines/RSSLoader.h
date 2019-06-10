@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "GDataXMLNode.h"
 
-#define SchoolRSSUrlNews @"http://blogs.cs.st-andrews.ac.uk/csblog/category/news/feed/"
+#define SchoolRSSUrlNews @"http://www.almasryalyoum.com/news_homepage_feed"
 #define SchoolRSSUrlEvents @"http://blogs.cs.st-andrews.ac.uk/csblog/category/event/feed/"
 #define UniversityRSSUrlNews @"http://www.st-andrews.ac.uk/rss/news/index.xml"
 #define UniversityRSSUrlEvents @"http://www.st-andrews.ac.uk/rss/events/index.xml"
